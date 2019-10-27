@@ -157,3 +157,11 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* 008 */
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    /* 004 */
+    nav ul li a {
+        width: 250px;
+    }
+}
