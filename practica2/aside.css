@@ -1,0 +1,22 @@
+
+/** Main, párrafo principal, aside **/
+
+/* a=0 b=0 c=2 -> 2 */
+main section { 
+	order: 2;
+	flex:1; 
+}
+
+/* a=0 b=0 c=2 -> 2 */
+main aside{ 
+	order: 1; 
+	width: 25%; 
+    padding: 15px;
+    text-align: center;
+}
+
+/* a=0 b=0 c=3 -> 3 */
+main aside p{
+    padding-top: 10px;
+    font-style: italic;
+}
