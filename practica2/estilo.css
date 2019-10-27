@@ -2,7 +2,7 @@
 
 /* a=0 b=0 c=1 -> 1 */
 h1 {
-    background-color:#BF7878; 
+    background-color:#7f3c3c; 
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 8px;
@@ -54,7 +54,7 @@ nav{
 
 /* a=0 b=0 c=2 -> 2 */
 nav ul {
-    border-bottom: 2px solid #BF7878;
+    border-bottom: 2px solid #7f3c3c;
 }
 
 /* a=0 b=0 c=3 -> 3 */
