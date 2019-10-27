@@ -1,0 +1,13 @@
+/** Listas **/
+
+/* a=0 b=0 c=2 -> 2 */
+ul li{
+    list-style-type: circle;
+    color: rgb(77, 58, 54);
+    text-indent: 20px;
+}
+
+/* a=0 b=0 c=3 -> 3 */
+ul li a{
+    text-decoration: none;
+}
