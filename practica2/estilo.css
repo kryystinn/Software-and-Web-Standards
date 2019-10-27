@@ -76,13 +76,13 @@ nav ul li a{
 /* a=0 b=1 c=1 -> 11 */
 a:visited, a:link{
     color: rgb(53, 40, 37);
-    background-color: transparent;
+    background-color: inherit;
 }
 
 /* a=0 b=1 c=1 -> 11 */
 a:active, a:hover{
     color: rgb(148, 114, 106);
-    background-color: transparent;
+    background-color: inherit;
 }
 
 /** Main, párrafo principal **/

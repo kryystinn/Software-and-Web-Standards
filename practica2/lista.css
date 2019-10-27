@@ -4,6 +4,7 @@
 ul li{
     list-style-type: circle;
     color: rgb(77, 58, 54);
+    background-color: transparent;
     text-indent: 20px;
 }
 
