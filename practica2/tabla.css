@@ -8,8 +8,8 @@ main section {
 
 /** Tabla de temporadas **/
 
-/* a=0 b=1 c=0 -> 10 */
-.content-table{
+/* a=0 b=0 c=1 -> 1 */
+table{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -20,8 +20,8 @@ main section {
     padding: 30px;
 }
 
-/* a=0 b=1 c=2 -> 12 */
-.content-table thead tr{
+/* a=0 b=0 c=3 -> 3 */
+table thead tr{
     background-color: #574141;
     color: #fff;
     font-family: 'Segoe UI', sans-serif;
@@ -29,28 +29,28 @@ main section {
     letter-spacing: 1px;
 }
 
-/* a=0 b=1 c=3 -> 13 */
-.content-table thead tr th{
+/* a=0 b=0 c=4 -> 4 */
+table thead tr th{
     padding: 5px 0px;;
 }
 
-/* a=0 b=1 c=2 -> 12 */
-.content-table tbody tr{
+/* a=0 b=0 c=3 -> 3 */
+table tbody tr{
     border-bottom: 1px solid #574141;
 }
 
-/* a=0 b=2 c=3 -> 23 */
-.content-table tbody tr:nth-of-type(even){
+/* a=0 b=1 c=4 -> 14 */
+table tbody tr:nth-of-type(even){
     background-color: #BFA5A5;
     color: inherit;
 }
 
-/* a=0 b=2 c=2 -> 22 */
-.content-table tbody tr:last-of-type{
+/* a=0 b=1 c=3 -> 13 */
+table tbody tr:last-of-type{
     border-bottom: 3px solid #574141;
 }
 
-/* a=0 b=1 c=2 -> 12 */
-.content-table tbody td{
+/* a=0 b=0 c=3 -> 3 */
+table tbody td{
     padding: 8px 10px;
 }
