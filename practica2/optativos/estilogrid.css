@@ -1,0 +1,55 @@
+/* a=0 b=0 c=1 -> 1 */
+body {
+    background-color: white;
+    color: black;
+}
+
+/* a=0 b=0 c=2 -> 2 */
+header h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* a=0 b=0 c=1 -> 1 */
+main {
+    display: grid;
+    grid-template-columns: 25% auto 25%;
+    grid-template-rows: 25% auto 25%;
+    column-gap: 40px;
+    row-gap: 30px;
+    grid-template-areas:
+        "header header header"
+        "aside article aside"
+        "footer footer footer";
+}
+
+/* a=0 b=1 c=0 -> 10 */
+.izqda {
+    background-color: rgb(255, 241, 243);
+    color: inherit;
+    grid-area: 1 / 1 / last-line / 2;
+    text-align: center;
+}
+
+/* a=0 b=1 c=0 -> 10 */
+.centro{
+    text-align: justify;
+}
+
+/* a=0 b=1 c=1 -> 11 */
+.centro h2{
+    text-align: center;
+}
+
+/* a=0 b=1 c=0 -> 10 */
+.dcha {
+    background-color: rgb(255, 241, 243);
+    color: inherit;
+    grid-area: 1 / 3 / last-line / end;
+    text-align: center;
+}
+
+/* a=0 b=0 c=1 -> 1 */
+footer {
+    text-align: center;
+}
