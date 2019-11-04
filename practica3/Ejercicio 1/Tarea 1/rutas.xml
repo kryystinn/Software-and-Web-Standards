@@ -7,7 +7,7 @@
         <medio_transporte>A pie</medio_transporte>
         <fecha_inicio>24/11/2019</fecha_inicio>
         <hora_inicio>10:00</hora_inicio>
-        <duracion unidad="horas">"3"</duracion>
+        <duracion unidad="horas">2</duracion>
         <agencia>Sin agencia</agencia>
         <descripcion>Ruta por el pueblo de Pravia para conocer los monumentos de la villa y alrededores.</descripcion>
         <personas_adecuadas>Todos los públicos</personas_adecuadas>
@@ -84,34 +84,120 @@
         </hitos>
     </ruta>
 
-    <ruta nombre="Ruta por ">
-        <tipo></tipo>
-        <medio_transporte></medio_transporte>
-        <fecha_inicio></fecha_inicio>
-        <hora_inicio></hora_inicio>
-        <duracion></duracion>
-        <agencia></agencia>
-        <descripcion></descripcion>
-        <personas_adecuadas></personas_adecuadas>
-        <lugar></lugar>
-        <direccion></direccion>
-        <coordenadas></coordenadas>
+    <ruta nombre="Ruta de las Playas en Ribadeo">
+        <tipo>Paisajística</tipo>
+        <medio_transporte>Bicicleta</medio_transporte>
+        <fecha_inicio>22/06/2020</fecha_inicio>
+        <hora_inicio>11:00</hora_inicio>
+        <duracion unidad="horas">4</duracion>
+        <agencia>Viajes Augasantas</agencia>
+        <descripcion>Ruta por la línea del litoral ribadense que permite conocer sus playas y paisajes.</descripcion>
+        <personas_adecuadas>Se puede ir con niños</personas_adecuadas>
+        <lugar>Ribadeo</lugar>
+        <direccion>Ermita-Capela de San Miguel</direccion>
+        <coordenadas>
+            <longitud>-7.037886</longitud>
+            <latitud>43.541634</latitud>
+            <altitud>18</altitud>
+        </coordenadas>
         <referencias>
-            <referencia numero="1"></referencia>
-            <referencia numero="2"></referencia>
-            <referencia numero="3"></referencia>
+            <referencia numero="1">https://unarutacadadia.com/ruta-de-la-costa/</referencia>
+            <referencia numero="2">https://www.minube.com/rincon/ruta-das-praias-a3711999</referencia>
+            <referencia numero="3">http://yoquetuenribadeo.com/ruta-de-las-playas/</referencia>
+            <referencia numero="4">https://es.wikiloc.com/rutas-coche/ruta-das-praias-ribadeo-2815050</referencia>
         </referencias>
-        <recomendacion></recomendacion>
+        <recomendacion>10</recomendacion>
+
         <hitos>
             <hito numero="1">
-                <descripcion></descripcion>
-                <coordenadas></coordenadas>
-                <distancia_hito_anterior></distancia_hito_anterior>
+                <nombre>Rinlo</nombre>
+                <descripcion>En Rinlo, una pequeña villa cercana a Ribadeo, comienza oficialmente la "ruta das praias".</descripcion>
+                <coordenadas>
+                    <longitud>-7.104617</longitud>
+                    <latitud>43.556900</latitud>
+                    <altitud>8</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="kilómetros">6,7</distancia_hito_anterior>
                 <fotos>
-                    <foto nombre="Foto de x"></foto>
+                    <foto nombre="Foto de Rinlo">https://4.bp.blogspot.com/-Dl6HO05bYA8/W6IutMMGqNI/AAAAAAABYjM/LlCjp2KIXwc5z5Y7lXJZoOnouyNybCWDwCKgBGAs/s1600/R%25C3%258DNLO%252C%2BRIBADEO%2B08.JPG</foto>
+                </fotos>
+            </hito>
+
+            <hito numero="2">
+                <nombre>Playa de Xuncos</nombre>
+                <descripcion>Primera playa de la ruta, de arena blanca, oleaje tranquilo y un entorno sin urbanizar.</descripcion>
+                <coordenadas>
+                    <longitud>-7.129773</longitud>
+                    <latitud>43.555573</latitud>
+                    <altitud>6</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="kilómetros">3,8</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto de la playa de Xuncos">https://4.bp.blogspot.com/-Dl6HO05bYA8/W6IutMMGqNI/AAAAAAABYjM/LlCjp2KIXwc5z5Y7lXJZoOnouyNybCWDwCKgBGAs/s1600/R%25C3%258DNLO%252C%2BRIBADEO%2B08.JPG</foto>
+                </fotos>
+            </hito>
+
+            <hito numero="3">
+                <nombre>Playa de Os Castros</nombre>
+                <descripcion>Segunda playa de la ruta, Os Castros es una de las mejores playas para bañarse o pasar el día, 
+                            excepto en las horas próximas a la marea alta, ya que durante este periodo, la playa queda prácticamente
+                            cubierta por el mar.</descripcion>
+                <coordenadas>
+                    <longitud>-7.132854</longitud>
+                    <latitud>43.555178</latitud>
+                    <altitud>5</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="kilómetros">0,4</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto de la playa de Os Castros">https://www.turismo.gal/imaxes/mdaw/mduw/~edisp/~extract/TURGA050564~1~staticrendition/tg_carrusel_cabecera_grande.jpg</foto>
+                </fotos>
+            </hito>
+
+            <hito numero="4">
+                <nombre>Playa de As Illas</nombre>
+                <descripcion>Terera playa de la ruta. Playa de arena blanca y fina que se extiende entre un conjunto de islotes y
+                            de costa y que conforma un paisaje litoral muy atractivo para el visitante.</descripcion>
+                <coordenadas>
+                    <longitud>-7.138307</longitud>
+                    <latitud>43.555907</latitud>
+                    <altitud>5</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="kilómetros">0,55</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto de la playa de As Illas">https://s2.wklcdn.com/image_5/155338/5466527/2870540Master.jpg</foto>
+                </fotos>
+            </hito>
+
+            <hito numero="5">
+                <nombre>Playa de Esteiro</nombre>
+                <descripcion>Cuarta playa de la ruta, tiene una entrada muy pequeña, casi a nivel de la carretera,
+                            pero luego se abre en un amplio arenal. En marea alta desaparece casi totalmente.</descripcion>
+                <coordenadas>
+                    <longitud>-7.147399</longitud>
+                    <latitud>43.554055</latitud>
+                    <altitud>4</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="kilómetros">0,75</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto de la playa de Esteiro">https://imgs-akamai.mnstatic.com/91/70/91703c05ce2b79c49551ee180bdc01d3.jpg</foto>
+                </fotos>
+            </hito>
+
+            <hito numero="6">
+                <nombre>Playa de Las Catedrales</nombre>
+                <descripcion>Quinta y última playa de la ruta, sin duda un entorno maravilloso resultado de la confluencia de las rocas,
+                             la arena, el mar y el sol, con sus luces y sonidos. La playa más famosa de todas las que contiene la ruta.</descripcion>
+                <coordenadas>
+                    <longitud>-7.157124</longitud>
+                    <latitud>43.554122</latitud>
+                    <altitud>5</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="kilómetros">1</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto de la playa de Las Catedrales">https://wallpapershome.com/images/pages/pic_h/2886.jpg</foto>
                 </fotos>
                 <videos>
-                    <video nombre="Video de x"></video>
+                <video nombre="Vídeo sobre la playa de Las Catedrales">https://www.youtube.com/watch?v=p-PfSO84jAs</video>
                 </videos>
             </hito>
         </hitos>
