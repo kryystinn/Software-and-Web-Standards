@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rutas>
+
+    <ruta nombre="Ruta por Pravia">
+        <tipo>Arquitectura y monumentos</tipo>
+        <medio_transporte>A pie</medio_transporte>
+        <fecha_inicio>24/11/2019</fecha_inicio>
+        <hora_inicio>10:00</hora_inicio>
+        <duracion unidad="horas">"3"</duracion>
+        <agencia>Sin agencia</agencia>
+        <descripcion>Ruta por el pueblo de Pravia para conocer los monumentos de la villa y alrededores.</descripcion>
+        <personas_adecuadas>Todos los públicos</personas_adecuadas>
+        <lugar>Pravia</lugar>
+        <direccion>Hotel los 14</direccion>
+        <coordenadas>
+            <longitud>-6.109872</longitud>
+            <latitud>43.488691</latitud>
+            <altitud>24</altitud>
+        </coordenadas>
+        <referencias>
+            <referencia numero="1">https://praviaturismo.es/</referencia>
+            <referencia numero="2">https://www.turismoasturias.es/descubre/donde-ir/municipios/pravia</referencia>
+            <referencia numero="3">https://www.minube.com/que_ver/espana/asturias/pravia</referencia>
+        </referencias>
+        <recomendacion>"6"</recomendacion>
+
+        <hitos>
+            <hito numero="1">
+                <nombre>Ayuntamiento de Pravia</nombre>
+                <descripcion>"El primer hito se corresponde con la Plaza Marquesa de Casa Valdés, donde se encuentra el ayuntamiento local."</descripcion>
+                <coordenadas>
+                    <longitud>-6.111279</longitud>
+                    <latitud>43.489360</latitud>
+                    <altitud>39</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="metros">280</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto del ayuntamiento">https://www.verpueblos.com/fotos_originales/7/5/3/00033753.jpg</foto>
+                </fotos>
+            </hito>
+
+            <hito numero="2">
+                <nombre>Colegiata de Pravia</nombre>
+                <descripcion>"El segundo hito se corresponde con la Colegiata Santa María la Mayor, situada en la plaza del Parque Sabino Moutas."</descripcion>
+                <coordenadas>
+                    <longitud>-6.113853</longitud>
+                    <latitud>43.490087</latitud>
+                    <altitud>38</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="metros">300</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto de la Colegiata Santa María la Mayor">https://www.praviaturismo.es/recursos/galeria/18/thumb__mg_9770-copia.jpg</foto>
+                </fotos>
+            </hito>
+
+            <hito numero="3">
+                <nombre>La Azucarera de Pravia</nombre>
+                <descripcion>"El tercer hito se corresponde con la antigua azucarera del pueblo."</descripcion>
+                <coordenadas>
+                    <longitud>-6.114315</longitud>
+                    <latitud>43.491818</latitud>
+                    <altitud>12</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="metros">300</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto de la Azucarera">https://farm4.staticflickr.com/3227/2796847147_640c7841dc_b.jpg</foto>
+                </fotos>
+            </hito>
+
+            <hito numero="4">
+                <nombre>La Capilla de Nuestra Señora del Valle</nombre>
+                <descripcion>"El cuarto y último hito se corresponde con la capilla de Nuestra señora del Valle."</descripcion>
+                <coordenadas>
+                    <longitud>-6.115535</longitud>
+                    <latitud>43.48333</latitud>
+                    <altitud>58</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="metros">550</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto de la capilla">https://www.praviaturismo.es/recursos/galeria/17/thumb__mg_0912-editar.jpg</foto>
+                </fotos>
+            </hito>
+        </hitos>
+    </ruta>
+
+    <ruta nombre="Ruta por ">
+        <tipo></tipo>
+        <medio_transporte></medio_transporte>
+        <fecha_inicio></fecha_inicio>
+        <hora_inicio></hora_inicio>
+        <duracion></duracion>
+        <agencia></agencia>
+        <descripcion></descripcion>
+        <personas_adecuadas></personas_adecuadas>
+        <lugar></lugar>
+        <direccion></direccion>
+        <coordenadas></coordenadas>
+        <referencias>
+            <referencia numero="1"></referencia>
+            <referencia numero="2"></referencia>
+            <referencia numero="3"></referencia>
+        </referencias>
+        <recomendacion></recomendacion>
+        <hitos>
+            <hito numero="1">
+                <descripcion></descripcion>
+                <coordenadas></coordenadas>
+                <distancia_hito_anterior></distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto de x"></foto>
+                </fotos>
+                <videos>
+                    <video nombre="Video de x"></video>
+                </videos>
+            </hito>
+        </hitos>
+    </ruta>
+</rutas>
