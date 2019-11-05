@@ -229,7 +229,7 @@
         <recomendacion>"9"</recomendacion>
 
         <hitos>
-        <hito numero="1">
+            <hito numero="1">
                 <nombre>Restaurante O Barco</nombre>
                 <descripcion>Cuidado comedor sin artificios con grandes ventanales mirando al mar que ofrece cocina gallega tradicional.</descripcion>
                 <coordenadas>
@@ -298,7 +298,7 @@
         <recomendacion>"8"</recomendacion>
 
         <hitos>
-        <hito numero="1">
+            <hito numero="1">
                 <nombre>Stoltzen Start</nombre>
                 <descripcion>Inicio de la ruta.</descripcion>
                 <coordenadas>
@@ -352,6 +352,79 @@
                 <distancia_hito_anterior unidad="kilómetros">2,8</distancia_hito_anterior>
                 <fotos>
                     <foto nombre="Foto del final">https://s19623.pcdn.co/wp-content/uploads/2014/07/floyen-11.jpg</foto>
+                </fotos>
+            </hito>
+        </hitos>
+    </ruta>
+
+    <ruta nombre="Ruta de playas por Llanes y alrededores">
+        <tipo>Paisajística</tipo>
+        <medio_transporte>Automóvil</medio_transporte>
+        <fecha_inicio>15/11/2019</fecha_inicio>
+        <hora_inicio>13:00</hora_inicio>
+        <duracion unidad="horas">6</duracion>
+        <agencia>Sin agencia</agencia>
+        <descripcion>Ruta por algunas de las playas llaniscas más destacadas.</descripcion>
+        <personas_adecuadas>Todos los públicos</personas_adecuadas>
+        <lugar>Llanes</lugar>
+        <direccion>Parking del Sablón, Llanes</direccion>
+        <coordenadas>
+            <longitud>-4.754525</longitud>
+            <latitud>43.422724</latitud>
+            <altitud>13</altitud>
+        </coordenadas>
+        <referencias>
+            <referencia numero="1">https://www.leonoticias.com/planes/playas-espectaculares-asturias-20170802133049-nt.html</referencia>
+            <referencia numero="2">https://www.llanes.es/es/playas</referencia>
+            <referencia numero="3">https://turismoenllanes.es/%E2%9C%94-30-playas-30-tesoros-vamos-a-elegir-entre-todos-la-mejor-playa-de-llanes-2015/</referencia>
+        </referencias>
+        <recomendacion>"7"</recomendacion>
+
+        <hitos>
+            <hito numero="1">
+                <nombre>Playa de Toró</nombre>
+                <descripcion>Playa de gran belleza y espectacularidad cuenta con la certificación Q de calidad, 
+                            con forma de concha de unos 220 metros de longitud, caracterizada por una serie de 
+                            pináculos rocosos que salpican parte de la arena en interior de la concha y que son 
+                            los restos de formaciones kársticas.</descripcion>
+                <coordenadas>
+                    <longitud>-4.743479</longitud>
+                    <latitud>43.416628</latitud>
+                    <altitud>2</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="kilómetros">3</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto de la playa de Toró">https://www.turismoasturias.es/documents/11022/14588/Toro3.jpg/17d1f24d-ded1-4611-b6f1-d77f3b729049?t=1400850542506</foto>
+                </fotos>
+            </hito>
+
+            <hito numero="2">
+                <nombre>Playa de Poo</nombre>
+                <descripcion>La playa de Poo, calificada como semi-natural, se encuentra en el interior de la 
+                            margen derecha de la ensenada que forma el arroyo Vallina, separada del mar abierto 
+                            por un estrecho paso entre las rocas. Por tanto, está muy protegida del oleaje.</descripcion>
+                <coordenadas>
+                    <longitud>-4.784197</longitud>
+                    <latitud>43.429033</latitud>
+                    <altitud>1</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="kilómetros">4,6</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto de la playa de Poo">https://cflvdg.avoz.es/default/2018/07/17/00121531820113360260517/Foto/poo.jpg</foto>
+                </fotos>
+            </hito>
+
+            <hito numero="3">
+                <nombre>Playa de Gulpiyuri</nombre>
+                <descripcion>Declarada Monumento Natural por el Principado de Asturias, constituye una de las singularidades geológicas más llamativas de esta zona.</descripcion>
+                <coordenadas>
+                    <longitud>-4.885899</longitud>
+                    <latitud>43.447534</latitud>
+                    <altitud>3</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="kilómetros">10,7</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto de la playa de Gulpiyuri">http://blog.grupoeuropa.com/wp-content/uploads/sites/6/2014/05/Gulpiyuri.jpg</foto>
                 </fotos>
             </hito>
         </hitos>
