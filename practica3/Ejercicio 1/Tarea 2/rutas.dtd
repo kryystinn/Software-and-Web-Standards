@@ -1,0 +1,3 @@
+<!ELEMENT rutas (ruta+)>
+<!ELEMENT ruta(tipo, medio_transporte, fecha_inicio?, hora_inicio?, duracion, agencia, descripcion, personas_adecuadas, lugar, direccion, coordenadas, referencias, hitos)>
+<!ATTLIST ruta nombre CDATA #REQUIRED>
