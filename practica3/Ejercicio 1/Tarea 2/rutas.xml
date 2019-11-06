@@ -38,6 +38,7 @@
                 <fotos>
                     <foto nombre="Foto del ayuntamiento">https://www.verpueblos.com/fotos_originales/7/5/3/00033753.jpg</foto>
                 </fotos>
+                <videos></videos>
             </hito>
 
             <hito numero="2">
@@ -52,6 +53,7 @@
                 <fotos>
                     <foto nombre="Foto de la Colegiata Santa María la Mayor">https://www.praviaturismo.es/recursos/galeria/18/thumb__mg_9770-copia.jpg</foto>
                 </fotos>
+                <videos></videos>
             </hito>
 
             <hito numero="3">
@@ -66,6 +68,7 @@
                 <fotos>
                     <foto nombre="Foto de la Azucarera">https://farm4.staticflickr.com/3227/2796847147_640c7841dc_b.jpg</foto>
                 </fotos>
+                <videos></videos>
             </hito>
 
             <hito numero="4">
@@ -80,6 +83,7 @@
                 <fotos>
                     <foto nombre="Foto de la capilla">https://www.praviaturismo.es/recursos/galeria/17/thumb__mg_0912-editar.jpg</foto>
                 </fotos>
+                <videos></videos>
             </hito>
         </hitos>
     </ruta>
@@ -121,6 +125,7 @@
                 <fotos>
                     <foto nombre="Foto de Rinlo">https://4.bp.blogspot.com/-Dl6HO05bYA8/W6IutMMGqNI/AAAAAAABYjM/LlCjp2KIXwc5z5Y7lXJZoOnouyNybCWDwCKgBGAs/s1600/R%25C3%258DNLO%252C%2BRIBADEO%2B08.JPG</foto>
                 </fotos>
+                <videos></videos>
             </hito>
 
             <hito numero="2">
@@ -135,6 +140,7 @@
                 <fotos>
                     <foto nombre="Foto de la playa de Xuncos">https://4.bp.blogspot.com/-Dl6HO05bYA8/W6IutMMGqNI/AAAAAAABYjM/LlCjp2KIXwc5z5Y7lXJZoOnouyNybCWDwCKgBGAs/s1600/R%25C3%258DNLO%252C%2BRIBADEO%2B08.JPG</foto>
                 </fotos>
+                <videos></videos>
             </hito>
 
             <hito numero="3">
@@ -151,6 +157,7 @@
                 <fotos>
                     <foto nombre="Foto de la playa de Os Castros">https://www.turismo.gal/imaxes/mdaw/mduw/~edisp/~extract/TURGA050564~1~staticrendition/tg_carrusel_cabecera_grande.jpg</foto>
                 </fotos>
+                <videos></videos>
             </hito>
 
             <hito numero="4">
@@ -166,6 +173,7 @@
                 <fotos>
                     <foto nombre="Foto de la playa de As Illas">https://s2.wklcdn.com/image_5/155338/5466527/2870540Master.jpg</foto>
                 </fotos>
+                <videos></videos>
             </hito>
 
             <hito numero="5">
@@ -181,6 +189,7 @@
                 <fotos>
                     <foto nombre="Foto de la playa de Esteiro">https://imgs-akamai.mnstatic.com/91/70/91703c05ce2b79c49551ee180bdc01d3.jpg</foto>
                 </fotos>
+                <videos></videos>
             </hito>
 
             <hito numero="6">
@@ -240,6 +249,7 @@
                 <fotos>
                     <foto nombre="Foto del comedor del restaurante">https://www.restauranteobarco.com/images/obarco_salon_terraza_grande.jpg</foto>
                 </fotos>
+                <videos></videos>
             </hito>
 
             <hito numero="2">
@@ -254,6 +264,7 @@
                 <fotos>
                     <foto nombre="Foto de ejemplo de plato del restaurante Sabino">https://u.tfstatic.com/restaurant_photos/439/464439/169/612/sabino-sugerencias-del-chef-ba2d5.jpg</foto>
                 </fotos>
+                <videos></videos>
             </hito>
 
             <hito numero="3">
@@ -269,6 +280,7 @@
                 <fotos>
                     <foto nombre="Foto del hotel">https://www.sientegalicia.com/fotos/hoteles/698/Gran-Talaso-Hotel-Sanxenxo--51--706..jpg</foto>
                 </fotos>
+                <videos></videos>
             </hito>
         </hitos>
     </ruta>
@@ -310,6 +322,7 @@
                 <fotos>
                     <foto nombre="Foto del inicio de la ruta">https://d2uipiolnw1m5l.cloudfront.net/media/rc/968x450/1548765430/stoltzekleiven.jpg</foto>
                 </fotos>
+                <videos></videos>
             </hito>
 
             <hito numero="2">
@@ -324,6 +337,7 @@
                 <fotos>
                     <foto nombre="Foto del final de las escaleras">https://farm8.static.flickr.com/7017/13975818693_fec661aca2.jpg</foto>
                 </fotos>
+                <videos></videos>
             </hito>
 
             <hito numero="3">
@@ -339,6 +353,7 @@
                     <foto nombre="Foto del funicular">https://www.stromma.com/globalassets/norway/bergen/sights-maps/mount-floyen-funicular/Bergen-Floyen-funicular</foto>
                     <foto nombre="Foto del sitio">https://farm1.static.flickr.com/914/42956236734_f11b21752c_b.jpg</foto>
                 </fotos>
+                <videos></videos>
             </hito>
 
             <hito numero="4">
@@ -353,6 +368,7 @@
                 <fotos>
                     <foto nombre="Foto del final">https://s19623.pcdn.co/wp-content/uploads/2014/07/floyen-11.jpg</foto>
                 </fotos>
+                <videos></videos>
             </hito>
         </hitos>
     </ruta>
@@ -396,6 +412,7 @@
                 <fotos>
                     <foto nombre="Foto de la playa de Toró">https://www.turismoasturias.es/documents/11022/14588/Toro3.jpg/17d1f24d-ded1-4611-b6f1-d77f3b729049?t=1400850542506</foto>
                 </fotos>
+                <videos></videos>
             </hito>
 
             <hito numero="2">
@@ -412,6 +429,7 @@
                 <fotos>
                     <foto nombre="Foto de la playa de Poo">https://cflvdg.avoz.es/default/2018/07/17/00121531820113360260517/Foto/poo.jpg</foto>
                 </fotos>
+                <videos></videos>
             </hito>
 
             <hito numero="3">
@@ -426,6 +444,7 @@
                 <fotos>
                     <foto nombre="Foto de la playa de Gulpiyuri">http://blog.grupoeuropa.com/wp-content/uploads/sites/6/2014/05/Gulpiyuri.jpg</foto>
                 </fotos>
+                <videos></videos>
             </hito>
         </hitos>
     </ruta>
