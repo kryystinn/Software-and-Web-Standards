@@ -26,10 +26,10 @@
                             <h2>
                                 <xsl:value-of select="@nombre" />
                             </h2>
-                            <p>
+                            <p class="descripcion">
                                 <xsl:value-of select="@descripcion" />
                             </p>
-                            <p>
+                            <p class="recomendacion">
                                 Recomendación: <xsl:value-of select="@recomendacion" />
                             </p>
                             <h3>
@@ -52,7 +52,9 @@
                                 </p>
                             </xsl:if>
                             <p>
-                                Duración: <xsl:value-of select="concat(days-from-duration($d), ' h ', minutes-from-duration($d), ' m')"/>
+                                Duración: <xsl:value-of select="substring-after(substring-before(duracion, 'H'), 'PT')"/>
+                                <xsl:text> </xsl:text>
+                                <xsl:value-of select="duracion/@unidad"/>
                             </p>
                             <p>
                                 Agencia: <xsl:value-of select="agencia" />
@@ -66,10 +68,10 @@
                             <p>
                                 Dirección: <xsl:value-of select="direccion" />
                             </p>
-                            <h4>
+                            <p class="coordenadas">
                                 Coordenadas geográficas del inicio de la ruta
-                            </h4>
-                            <ul>
+                            </p>
+                            <ul class="listaCoordenadas">
                                 <li>
                                     Longitud: <xsl:value-of select="coordenadas/longitud"/>
                                 </li>
@@ -79,23 +81,31 @@
                                 </li>
                                 
                                 <li>
-                                    Altitud: <xsl:value-of select="coordenadas/altitud"/> metros
+                                    Altitud: <xsl:value-of select="coordenadas/altitud"/>  metros
                                 </li>
                             </ul>
-                            <h4>
+                            <h3>
                                 Hitos
-                            </h4>
+                            </h3>
                             <xsl:for-each select="hitos/hito">
+                            <section class="hito">
                                 <p class="nombreHito">
-                                    <xsl:value-of select="@nombre"/>
+                                    <xsl:value-of select="@numero"/>
+                                  <xsl:text>. </xsl:text>
+                                    <xsl:value-of select="nombre"/>
                                 </p>
                                 <p>
                                     Descripción del hito: <xsl:value-of select="descripcion" />
                                 </p>
-                                <p class="coordenadasHito">
+                                <p>
+                                    Distancia desde hito anterior: <xsl:value-of select="distancia_hito_anterior" />
+                                  <xsl:text> </xsl:text>
+                                    <xsl:value-of select="distancia_hito_anterior/@unidad"/>
+                                </p>
+                                <p class="coordenadas">
                                     Coordenadas geográficas del hito:
                                 </p>
-                                <ul>
+                                <ul class="listaCoordenadas">
                                     <li>
                                         Longitud: <xsl:value-of select="coordenadas/longitud"/>
                                     </li>
@@ -108,16 +118,11 @@
                                         Altitud: <xsl:value-of select="coordenadas/altitud"/> metros
                                     </li>
                                 </ul>
-                                <p>
-                                    Distancia desde hito anterior: <xsl:value-of select="distancia_hito_anterior" />
-                                    
-                                    <xsl:value-of select="distancia_hito_anterior/@unidad"/>
-                                </p>
-                                <p class="fotos">
+                                <h4>
                                     Fotografías
-                                </p>
+                                </h4>
                                 <xsl:for-each select="fotos/foto">
-                                <ul>
+                                <ul class="listaMultimedia">
                                     <li>
                                        <xsl:variable name="ref" select="."/>
                                         <a href="{$ref}"><xsl:value-of select="."/> </a>
@@ -125,29 +130,34 @@
                                  </ul>
                                                               
                                </xsl:for-each>
-                               <xsl:if test="videos/video">  
-                                   <p class="videos">
-                                        Vídeos
-                                   </p>
-                                   <xsl:for-each select="videos/video">
-                                    <ul>
-                                        <li>
-                                            <xsl:variable name="ref" select="."/>
-                                            <a href="{$ref}"><xsl:value-of select="."/> </a>
-                                        </li>
-                                    </ul>
-                                   </xsl:for-each>
-                               </xsl:if>
+                                <xsl:if test="videos/video">
+                                    <h4>
+                                            Vídeos
+                                    </h4>
+                                    <xsl:for-each select="videos/video">
+                                        <ul class="listaMultimedia">
+                                            <li>
+                                                <xsl:variable name="ref" select="."/>
+                                                <a href="{$ref}"><xsl:value-of select="."/> </a>
+                                            </li>
+                                        </ul>
+                                    </xsl:for-each>
+                                
+                                </xsl:if>
+                               </section>
                             </xsl:for-each>   
                             <h4>
                                 Referencias
                             </h4>
-                            <ul>
-                                <li>
-                                    <xsl:variable name="ref" select="."/>
-                                    <a href="{$ref}"><xsl:value-of select="."/> </a>
-                                </li>
-                            </ul>
+                          <xsl:for-each select="referencias/referencia">
+                            <ol>
+                              <xsl:value-of select="position()"/>.   <xsl:text/>
+                              <xsl:variable name="ref" select="."/>
+                              <a href="{$ref}">
+                                <xsl:value-of select="."/>
+                              </a>
+                            </ol>
+                          </xsl:for-each>
                         </section>
                 </xsl:for-each>
             </main>

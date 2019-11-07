@@ -1,0 +1,101 @@
+
+body{
+	flex-flow: row wrap;
+    font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    line-height: 1.8;
+    color: #101816;
+    background: linear-gradient(90deg, rgba(81, 212, 190, 0.89),rgb(7, 110, 80)); 
+    padding: 0% 2% 20% 2%;   
+}
+
+h1 {
+    color: #fff;
+    font-family: Tahoma, sans-serif;
+    font-size: 34px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    padding: 100px 25px;
+    text-align: center;     
+}
+
+h2{
+    color: #e9fffd;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 35px;
+    padding-bottom: 10px;
+    border-bottom: 5px double #d5fffc;
+}
+
+h3 {
+    font-size: 20px;
+    border-bottom: 1.5px dotted #101816;
+}
+
+h4 {
+    font-size: 16px;
+    text-indent: 20px;
+}
+
+.ruta {
+    background-color: rgba(7, 110, 80, 0.15);
+    padding-right: 80px;
+    padding-left: 60px;
+    padding-bottom: 50px;
+}
+
+.hito {
+    padding: 10px 0px;
+}
+
+.nombreHito {
+    text-indent: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.descripcion {
+    text-align: center;
+    font-size: 16px;
+}
+.recomendacion {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.coordenadas {
+    font-weight: bold;
+    font-size: 15px;
+}
+.listaCoordenadas li{
+    list-style: circle;
+}
+
+section p{
+    text-indent: 20px;
+}
+
+.listaMultimedia {
+    list-style: square;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.img1 {
+    width: 45px;
+    height: 45px;
+    padding: 0px 10px;
+}
+
+
+.img2{
+    width: 80px;
+    height: 40px;
+    padding: 0px 10px;
+}
