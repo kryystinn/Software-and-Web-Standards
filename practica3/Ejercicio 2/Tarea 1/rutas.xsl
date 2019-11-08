@@ -149,15 +149,16 @@
                             <h4>
                                 Referencias
                             </h4>
+                          <ol>
                           <xsl:for-each select="referencias/referencia">
-                            <ol>
-                              <xsl:value-of select="position()"/>.   <xsl:text/>
+                            <li>
                               <xsl:variable name="ref" select="."/>
                               <a href="{$ref}">
                                 <xsl:value-of select="."/>
                               </a>
-                            </ol>
+                            </li>
                           </xsl:for-each>
+                          </ol>
                         </section>
                 </xsl:for-each>
             </main>
