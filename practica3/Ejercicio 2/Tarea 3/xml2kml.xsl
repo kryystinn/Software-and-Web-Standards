@@ -26,10 +26,10 @@
                         <xsl:for-each select="hitos/hito">
                             <Placemark>
                                 <name>
-                                    <xsl:value-of select="@nombre"/>
+                                    <xsl:value-of select="nombre"/>
                                 </name>
                                 <description>
-                                    <xsl:value-of select="@descripcion"/>
+                                    <xsl:value-of select="descripcion"/>
                                 </description>
                                 <Point>
                                     <coordinates>
