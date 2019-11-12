@@ -6,6 +6,15 @@ public class Xml2json{
     {
         if (args.Length < 1)
             throw new ArgumentNullException();
+
+        String file = args[0];
+
+        XmlDocument file = new XmlDocument();
+        file.LoadXml(xml);
+
+        string jsonDoc = JsonConvert.SerializeXmlNode(file);
+
+        Console.WriteLine(jsonDoc);
     }
-	
+
 }

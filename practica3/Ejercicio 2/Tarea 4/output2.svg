@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg height="500" width="800" xmlns="http://www.w3.org/2000/svg">
-    <polyline style="fill:none; stroke:red; stroke-width:3" points="2,18 50,92 100,94 150,95 200,95 250,96 300,95 "></polyline>
+    <text x="2" y="97" style="writing-mode:tb; glyph-orientation-vertical: 0;">Inicio</text>
+    <text x="50" y="107" style="writing-mode:tb; glyph-orientation-vertical: 0;">Rinlo</text>
+    <text x="100" y="109" style="writing-mode:tb; glyph-orientation-vertical: 0;">Playa de Xuncos</text>
+    <text x="150" y="110" style="writing-mode:tb; glyph-orientation-vertical: 0;">Playa de Os Castros</text>
+    <text x="200" y="110" style="writing-mode:tb; glyph-orientation-vertical: 0;">Playa de As Illas</text>
+    <text x="250" y="111" style="writing-mode:tb; glyph-orientation-vertical: 0;">Playa de Esteiro</text>
+    <text x="300" y="110" style="writing-mode:tb; glyph-orientation-vertical: 0;">Playa de Las Catedrales</text>
+    <polyline style="fill:none; stroke:red; stroke-width:3" points="2,82 50,92 100,94 150,95 200,95 250,96 300,95 "></polyline>
 </svg>

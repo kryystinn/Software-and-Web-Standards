@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg height="500" width="800" 
-    xmlns="http://www.w3.org/2000/svg">
+<svg height="500" width="800" xmlns="http://www.w3.org/2000/svg">
+    <text x="2" y="318" style="writing-mode:tb; glyph-orientation-vertical: 0;">Inicio</text>
+    <text x="50" y="324" style="writing-mode:tb; glyph-orientation-vertical: 0;">Stoltzen Start</text>
+    <text x="100" y="160" style="writing-mode:tb; glyph-orientation-vertical: 0;">Sandvikspilen</text>
+    <text x="140" y="140" style="writing-mode:tb; glyph-orientation-vertical: 0;">Panorama Floyfjellet</text>
+    <text x="200" y="399" style="writing-mode:tb; glyph-orientation-vertical: 0;">Floyen, Vetrlidsallmenningen 23A</text>
     <polyline style="fill:none; stroke:red; stroke-width:3" points="2,303 50,319 100,152 150,119 200,384 "></polyline>
 </svg>

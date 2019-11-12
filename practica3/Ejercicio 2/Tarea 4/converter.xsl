@@ -11,7 +11,7 @@
 					<xsl:attribute name="points">
 						<xsl:value-of select="$inicio"/>
 						<xsl:text>,</xsl:text>
-						<xsl:value-of select="coordenadas/altitud"/>
+						<xsl:value-of select="100-coordenadas/altitud"/>
 						<xsl:text> </xsl:text>
 						<xsl:for-each select="hitos/hito">
 							<xsl:value-of select="position()*50"/>
