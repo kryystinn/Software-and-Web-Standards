@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rutas>
+
+    <ruta nombre="Ruta por Pravia" descripcion="Ruta por el pueblo de Pravia para conocer los monumentos de la villa y alrededores." recomendacion="6">
+        <tipo>Arquitectura y monumentos</tipo>
+        <medio_transporte>A pie</medio_transporte>
+        <fecha_inicio>2019-11-24</fecha_inicio>
+        <hora_inicio>10:00:00</hora_inicio>
+        <duracion unidad="horas">PT2H</duracion>
+        <agencia>Sin agencia</agencia>
+        <personas_adecuadas>Todos los públicos</personas_adecuadas>
+        <lugar>Pravia</lugar>
+        <direccion>Hotel los 14</direccion>
+
+        <coordenadas>
+            <longitud>-6.109872</longitud>
+            <latitud>43.488691</latitud>
+            <altitud>24</altitud>
+        </coordenadas>
+
+        <referencias>
+            <referencia numero="1">https://praviaturismo.es/</referencia>
+            <referencia numero="2">https://www.turismoasturias.es/descubre/donde-ir/municipios/pravia</referencia>
+            <referencia numero="3">https://www.minube.com/que_ver/espana/asturias/pravia</referencia>
+        </referencias>
+
+        <hitos>
+            <hito numero="1">
+                <nombre>Ayuntamiento de Pravia</nombre>
+                <descripcion>El primer hito se corresponde con la Plaza Marquesa de Casa Valdés, donde se encuentra el ayuntamiento local.</descripcion>
+                <coordenadas>
+                    <longitud>-6.111279</longitud>
+                    <latitud>43.489360</latitud>
+                    <altitud>39</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="metros">280.0</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto del ayuntamiento">https://www.verpueblos.com/fotos_originales/7/5/3/00033753.jpg</foto>
+                </fotos>
+                <videos></videos>
+            </hito>
+
+            <hito numero="2">
+                <nombre>Colegiata de Pravia</nombre>
+                <descripcion>El segundo hito se corresponde con la Colegiata Santa María la Mayor, situada en la plaza del Parque Sabino Moutas.</descripcion>
+                <coordenadas>
+                    <longitud>-6.113853</longitud>
+                    <latitud>43.490087</latitud>
+                    <altitud>38</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="metros">300.0</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto de la Colegiata Santa María la Mayor">https://www.praviaturismo.es/recursos/galeria/18/thumb__mg_9770-copia.jpg</foto>
+                </fotos>
+                <videos></videos>
+            </hito>
+
+            <hito numero="3">
+                <nombre>La Azucarera de Pravia</nombre>
+                <descripcion>El tercer hito se corresponde con la antigua azucarera del pueblo.</descripcion>
+                <coordenadas>
+                    <longitud>-6.114315</longitud>
+                    <latitud>43.491818</latitud>
+                    <altitud>12</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="metros">300.0</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto de la Azucarera">https://farm4.staticflickr.com/3227/2796847147_640c7841dc_b.jpg</foto>
+                </fotos>
+                <videos></videos>
+            </hito>
+
+            <hito numero="4">
+                <nombre>La Capilla de Nuestra Señora del Valle</nombre>
+                <descripcion>El cuarto y último hito se corresponde con la capilla de Nuestra señora del Valle.</descripcion>
+                <coordenadas>
+                    <longitud>-6.115535</longitud>
+                    <latitud>43.48333</latitud>
+                    <altitud>58</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="metros">550.0</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto de la capilla">https://www.praviaturismo.es/recursos/galeria/17/thumb__mg_0912-editar.jpg</foto>
+                </fotos>
+                <videos></videos>
+            </hito>
+        </hitos>
+    </ruta>
+
+    <ruta nombre="Ruta de las Playas en Ribadeo" descripcion="Ruta por la línea del litoral ribadense que permite conocer sus playas y paisajes." recomendacion="10">
+        <tipo>Paisajística</tipo>
+        <medio_transporte>Bicicleta</medio_transporte>
+        <fecha_inicio>2020-06-22</fecha_inicio>
+        <hora_inicio>11:00:00</hora_inicio>
+        <duracion unidad="horas">PT4H</duracion>
+        <agencia>Viajes Augasantas</agencia>
+        <personas_adecuadas>Se puede ir con niños</personas_adecuadas>
+        <lugar>Ribadeo</lugar>
+        <direccion>Ermita-Capela de San Miguel</direccion>
+
+        <coordenadas>
+            <longitud>-7.037886</longitud>
+            <latitud>43.541634</latitud>
+            <altitud>18</altitud>
+        </coordenadas>
+
+        <referencias>
+            <referencia numero="1">https://unarutacadadia.com/ruta-de-la-costa/</referencia>
+            <referencia numero="2">https://www.minube.com/rincon/ruta-das-praias-a3711999</referencia>
+            <referencia numero="3">http://yoquetuenribadeo.com/ruta-de-las-playas/</referencia>
+            <referencia numero="4">https://es.wikiloc.com/rutas-coche/ruta-das-praias-ribadeo-2815050</referencia>
+        </referencias>
+
+        <hitos>
+            <hito numero="1">
+                <nombre>Rinlo</nombre>
+                <descripcion>En Rinlo, una pequeña villa cercana a Ribadeo, comienza oficialmente la "ruta das praias".</descripcion>
+                <coordenadas>
+                    <longitud>-7.104617</longitud>
+                    <latitud>43.556900</latitud>
+                    <altitud>8</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="kilómetros">6.7</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto de Rinlo">https://4.bp.blogspot.com/-Dl6HO05bYA8/W6IutMMGqNI/AAAAAAABYjM/LlCjp2KIXwc5z5Y7lXJZoOnouyNybCWDwCKgBGAs/s1600/R%25C3%258DNLO%252C%2BRIBADEO%2B08.JPG</foto>
+                </fotos>
+                <videos></videos>
+            </hito>
+
+            <hito numero="2">
+                <nombre>Playa de Xuncos</nombre>
+                <descripcion>Primera playa de la ruta, de arena blanca, oleaje tranquilo y un entorno sin urbanizar.</descripcion>
+                <coordenadas>
+                    <longitud>-7.129773</longitud>
+                    <latitud>43.555573</latitud>
+                    <altitud>6</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="kilómetros">3.8</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto de la playa de Xuncos">https://4.bp.blogspot.com/-Dl6HO05bYA8/W6IutMMGqNI/AAAAAAABYjM/LlCjp2KIXwc5z5Y7lXJZoOnouyNybCWDwCKgBGAs/s1600/R%25C3%258DNLO%252C%2BRIBADEO%2B08.JPG</foto>
+                </fotos>
+                <videos></videos>
+            </hito>
+
+            <hito numero="3">
+                <nombre>Playa de Os Castros</nombre>
+                <descripcion>Segunda playa de la ruta, Os Castros es una de las mejores playas para bañarse o pasar el día, 
+                            excepto en las horas próximas a la marea alta, ya que durante este periodo, la playa queda prácticamente
+                            cubierta por el mar.</descripcion>
+                <coordenadas>
+                    <longitud>-7.132854</longitud>
+                    <latitud>43.555178</latitud>
+                    <altitud>5</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="kilómetros">0.4</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto de la playa de Os Castros">https://www.turismo.gal/imaxes/mdaw/mduw/~edisp/~extract/TURGA050564~1~staticrendition/tg_carrusel_cabecera_grande.jpg</foto>
+                </fotos>
+                <videos></videos>
+            </hito>
+
+            <hito numero="4">
+                <nombre>Playa de As Illas</nombre>
+                <descripcion>Terera playa de la ruta. Playa de arena blanca y fina que se extiende entre un conjunto de islotes y
+                            de costa y que conforma un paisaje litoral muy atractivo para el visitante.</descripcion>
+                <coordenadas>
+                    <longitud>-7.138307</longitud>
+                    <latitud>43.555907</latitud>
+                    <altitud>5</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="kilómetros">0.55</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto de la playa de As Illas">https://s2.wklcdn.com/image_5/155338/5466527/2870540Master.jpg</foto>
+                </fotos>
+                <videos></videos>
+            </hito>
+
+            <hito numero="5">
+                <nombre>Playa de Esteiro</nombre>
+                <descripcion>Cuarta playa de la ruta, tiene una entrada muy pequeña, casi a nivel de la carretera,
+                            pero luego se abre en un amplio arenal. En marea alta desaparece casi totalmente.</descripcion>
+                <coordenadas>
+                    <longitud>-7.147399</longitud>
+                    <latitud>43.554055</latitud>
+                    <altitud>4</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="kilómetros">0.75</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto de la playa de Esteiro">https://imgs-akamai.mnstatic.com/91/70/91703c05ce2b79c49551ee180bdc01d3.jpg</foto>
+                </fotos>
+                <videos></videos>
+            </hito>
+
+            <hito numero="6">
+                <nombre>Playa de Las Catedrales</nombre>
+                <descripcion>Quinta y última playa de la ruta, sin duda un entorno maravilloso resultado de la confluencia de las rocas,
+                             la arena, el mar y el sol, con sus luces y sonidos. La playa más famosa de todas las que contiene la ruta.</descripcion>
+                <coordenadas>
+                    <longitud>-7.157124</longitud>
+                    <latitud>43.554122</latitud>
+                    <altitud>5</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="kilómetros">1.0</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto de la playa de Las Catedrales">https://wallpapershome.com/images/pages/pic_h/2886.jpg</foto>
+                </fotos>
+                <videos>
+                    <video nombre="Vídeo sobre la playa de Las Catedrales">https://www.youtube.com/watch?v=p-PfSO84jAs</video>
+                </videos>
+            </hito>
+        </hitos>
+    </ruta>
+    <ruta nombre="Ruta por Sanxenxo" descripcion="Ruta por el pueblo de origen marinero de nombre Sanxenxo y alrededores para conocer los mejores sitios donde poder disfrutar
+                    de la gastronomía gallega." recomendacion="9">
+        <tipo>Gastronómica</tipo>
+        <medio_transporte>A pie</medio_transporte>
+        <fecha_inicio>2019-03-10</fecha_inicio>
+        <hora_inicio>12:30:00</hora_inicio>
+        <duracion unidad="horas">PT4H</duracion>
+        <agencia>Disfruta Sanxenxo</agencia>
+        <personas_adecuadas>Todos los públicos</personas_adecuadas>
+        <lugar>Tapería Bar ATÍPIKO</lugar>
+        <direccion>Rua de Lugo, 4, Sanxenxo</direccion>
+
+        <coordenadas>
+            <longitud>-8.814455</longitud>
+            <latitud>42.401823</latitud>
+            <altitud>11</altitud>
+        </coordenadas>
+
+        <referencias>
+            <referencia numero="1">https://www.tripadvisor.es/Restaurants-g652143-Sanxenxo_Province_of_Pontevedra_Galicia.html</referencia>
+            <referencia numero="2">https://www.minube.com/rincon/o-barco-a995081</referencia>
+            <referencia numero="3">http://restaurantesabino.com/</referencia>
+            <referencia numero="4">https://www.hotelsanxenxo.com/es-ES/index.aspx</referencia>
+        </referencias>
+
+        <hitos>
+            <hito numero="1">
+                <nombre>Restaurante O Barco</nombre>
+                <descripcion>Cuidado comedor sin artificios con grandes ventanales mirando al mar que ofrece cocina gallega tradicional.</descripcion>
+                <coordenadas>
+                    <longitud>-8.815565</longitud>
+                    <latitud>42.401313</latitud>
+                    <altitud>8</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="metros">130.0</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto del comedor del restaurante">https://www.restauranteobarco.com/images/obarco_salon_terraza_grande.jpg</foto>
+                </fotos>
+                <videos></videos>
+            </hito>
+
+            <hito numero="2">
+                <nombre>Restaurante Sabino</nombre>
+                <descripcion>Platos gallegos con toques de modernidad en cuidado salón de aires actuales decorado con cuadros y bambú.</descripcion>
+                <coordenadas>
+                    <longitud>-8.810646</longitud>
+                    <latitud>42.401606</latitud>
+                    <altitud>9</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="metros">450.0</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto de ejemplo de plato del restaurante Sabino">https://u.tfstatic.com/restaurant_photos/439/464439/169/612/sabino-sugerencias-del-chef-ba2d5.jpg</foto>
+                </fotos>
+                <videos></videos>
+            </hito>
+
+            <hito numero="3">
+                <nombre>Gran Talaso Hotel Sanxenxo</nombre>
+                <descripcion>Hotel de 4 estrellas situado en la línea de la costa con una terraza increíble donde poder tomar algo así como
+                            desayunar, comer o cenar. Además, el hotel consta de un spa.</descripcion>
+                <coordenadas>
+                    <longitud>-8.816680</longitud>
+                    <latitud>42.399575</latitud>
+                    <altitud>23</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="metros">700.0</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto del hotel">https://www.sientegalicia.com/fotos/hoteles/698/Gran-Talaso-Hotel-Sanxenxo--51--706..jpg</foto>
+                </fotos>
+                <videos></videos>
+            </hito>
+        </hitos>
+    </ruta>
+
+    <ruta nombre="Ruta de Stoltzekleiven en Bergen, Noruega" descripcion="Empinada ruta de senderismo pavimentada que además consta de
+                 908 escalones, con una elevación promedio del 36%." recomendacion="8">
+        <tipo>Senderismo</tipo>
+        <medio_transporte>A pie</medio_transporte>
+        <fecha_inicio>2020-05-16</fecha_inicio>
+        <hora_inicio>09:00:00</hora_inicio>
+        <duracion unidad="horas">PT5H</duracion>
+        <agencia>Fjord Tours AS</agencia>
+        <personas_adecuadas>Personas en buena forma física</personas_adecuadas>
+        <lugar>Hanseviertel Bryggen</lugar>
+        <direccion>Torget 13, 5014 Bergen, Noruega</direccion>
+
+        <coordenadas>
+            <longitud>5.323439</longitud>
+            <latitud>60.397073</latitud>
+            <altitud>3</altitud>
+        </coordenadas>
+
+        <referencias>
+            <referencia numero="1">https://no.wikipedia.org/wiki/Stoltzekleiven</referencia>
+            <referencia numero="2">https://www.visitnorway.es/que-ver-en-noruega/noruega-de-los-fiordos/bergen/listings-bergen/stoltzekleiven/142435/</referencia>
+            <referencia numero="3">https://en.visitbergen.com/things-to-do/stoltzekleiven-p1529323/</referencia>
+        </referencias>
+
+        <hitos>
+            <hito numero="1">
+                <nombre>Stoltzen Start</nombre>
+                <descripcion>Inicio de la ruta.</descripcion>
+                <coordenadas>
+                    <longitud>5.327827</longitud>
+                    <latitud>60.411946</latitud>
+                    <altitud>81</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="kilómetros">2.0</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto del inicio de la ruta">https://d2uipiolnw1m5l.cloudfront.net/media/rc/968x450/1548765430/stoltzekleiven.jpg</foto>
+                </fotos>
+                <videos></videos>
+            </hito>
+
+            <hito numero="2">
+                <nombre>Sandvikspilen</nombre>
+                <descripcion>El final de los 908 escalones.</descripcion>
+                <coordenadas>
+                    <longitud>5.333521</longitud>
+                    <latitud>60.412536</latitud>
+                    <altitud>352</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="kilómetros">0.8</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto del final de las escaleras">https://farm8.static.flickr.com/7017/13975818693_fec661aca2.jpg</foto>
+                </fotos>
+                <videos></videos>
+            </hito>
+
+            <hito numero="3">
+                <nombre>Panorama Floyfjellet</nombre>
+                <descripcion>El final de la ruta, donde hay cafeterías y un restaurante, y un funicular para volver a la ciudad.</descripcion>
+                <coordenadas>
+                    <longitud>5.342864</longitud>
+                    <latitud>60.394477</latitud>
+                    <altitud>319</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="kilómetros">3.3</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto del funicular">https://www.stromma.com/globalassets/norway/bergen/sights-maps/mount-floyen-funicular/Bergen-Floyen-funicular</foto>
+                    <foto nombre="Foto del sitio">https://farm1.static.flickr.com/914/42956236734_f11b21752c_b.jpg</foto>
+                </fotos>
+                <videos></videos>
+            </hito>
+
+            <hito numero="4">
+                <nombre>Floyen, Vetrlidsallmenningen 23A</nombre>
+                <descripcion>Vuelta a la ciudad caminando.</descripcion>
+                <coordenadas>
+                    <longitud>5.328470</longitud>
+                    <latitud>60.396368</latitud>
+                    <altitud>16</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="kilómetros">2.8</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto del final">https://s19623.pcdn.co/wp-content/uploads/2014/07/floyen-11.jpg</foto>
+                </fotos>
+                <videos></videos>
+            </hito>
+        </hitos>
+    </ruta>
+
+    <ruta nombre="Ruta de playas por Llanes y alrededores" descripcion="Ruta por algunas de las playas llaniscas más destacadas." recomendacion="7">
+        <tipo>Paisajística</tipo>
+        <medio_transporte>Automóvil</medio_transporte>
+        <fecha_inicio>2019-11-15</fecha_inicio>
+        <hora_inicio>13:00:00</hora_inicio>
+        <duracion unidad="horas">PT6H</duracion>
+        <agencia>Sin agencia</agencia>
+        <personas_adecuadas>Todos los públicos</personas_adecuadas>
+        <lugar>Llanes</lugar>
+        <direccion>Parking del Sablón, Llanes</direccion>
+
+        <coordenadas>
+            <longitud>-4.754525</longitud>
+            <latitud>43.422724</latitud>
+            <altitud>13</altitud>
+        </coordenadas>
+        
+        <referencias>
+            <referencia numero="1">https://www.leonoticias.com/planes/playas-espectaculares-asturias-20170802133049-nt.html</referencia>
+            <referencia numero="2">https://www.llanes.es/es/playas</referencia>
+            <referencia numero="3">https://turismoenllanes.es/%E2%9C%94-30-playas-30-tesoros-vamos-a-elegir-entre-todos-la-mejor-playa-de-llanes-2015/</referencia>
+        </referencias>
+
+        <hitos>
+            <hito numero="1">
+                <nombre>Playa de Toró</nombre>
+                <descripcion>Playa de gran belleza y espectacularidad cuenta con la certificación Q de calidad, 
+                            con forma de concha de unos 220 metros de longitud, caracterizada por una serie de 
+                            pináculos rocosos que salpican parte de la arena en interior de la concha y que son 
+                            los restos de formaciones kársticas.</descripcion>
+                <coordenadas>
+                    <longitud>-4.743479</longitud>
+                    <latitud>43.416628</latitud>
+                    <altitud>2</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="kilómetros">3.0</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto de la playa de Toró">https://www.turismoasturias.es/documents/11022/14588/Toro3.jpg/17d1f24d-ded1-4611-b6f1-d77f3b729049?t=1400850542506</foto>
+                </fotos>
+                <videos></videos>
+            </hito>
+
+            <hito numero="2">
+                <nombre>Playa de Poo</nombre>
+                <descripcion>La playa de Poo, calificada como semi-natural, se encuentra en el interior de la 
+                            margen derecha de la ensenada que forma el arroyo Vallina, separada del mar abierto 
+                            por un estrecho paso entre las rocas. Por tanto, está muy protegida del oleaje.</descripcion>
+                <coordenadas>
+                    <longitud>-4.784197</longitud>
+                    <latitud>43.429033</latitud>
+                    <altitud>1</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="kilómetros">4.6</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto de la playa de Poo">https://cflvdg.avoz.es/default/2018/07/17/00121531820113360260517/Foto/poo.jpg</foto>
+                </fotos>
+                <videos></videos>
+            </hito>
+
+            <hito numero="3">
+                <nombre>Playa de Gulpiyuri</nombre>
+                <descripcion>Declarada Monumento Natural por el Principado de Asturias, constituye una de las singularidades geológicas más llamativas de esta zona.</descripcion>
+                <coordenadas>
+                    <longitud>-4.885899</longitud>
+                    <latitud>43.447534</latitud>
+                    <altitud>3</altitud>
+                </coordenadas>
+                <distancia_hito_anterior unidad="kilómetros">10.7</distancia_hito_anterior>
+                <fotos>
+                    <foto nombre="Foto de la playa de Gulpiyuri">http://blog.grupoeuropa.com/wp-content/uploads/sites/6/2014/05/Gulpiyuri.jpg</foto>
+                </fotos>
+                <videos></videos>
+            </hito>
+        </hitos>
+    </ruta>
+
+</rutas>
