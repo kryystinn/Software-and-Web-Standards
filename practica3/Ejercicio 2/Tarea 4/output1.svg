@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg height="500" width="800" xmlns="http://www.w3.org/2000/svg">
-    <text x="2" y="91" style="writing-mode:tb; glyph-orientation-vertical: 0;">Inicio</text>
-    <text x="50" y="76" style="writing-mode:tb; glyph-orientation-vertical: 0;">Ayuntamiento de Pravia</text>
-    <text x="100" y="77" style="writing-mode:tb; glyph-orientation-vertical: 0;">Colegiata de Pravia</text>
-    <text x="150" y="102" style="writing-mode:tb; glyph-orientation-vertical: 0;">Azucarera de Pravia</text>
-    <text x="200" y="57" style="writing-mode:tb; glyph-orientation-vertical: 0;">Capilla de Nuestra Señora del Valle</text>
-    <polyline style="fill:none; stroke:red; stroke-width:3" points="2,76 50,61 100,62 150,88 200,42 " />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="1000" width="800" 
+    xmlns="http://www.w3.org/2000/svg">
+    <polyline style="fill:none; stroke:red; stroke-width:3" points="2,76 50,61 100,62 150,88 200,42 "></polyline>
+    <text x="-100" y="210" transform="rotate(-90,0,200)">Inicio</text>
+    <text x="-200" y="150" transform="rotate(-90,0,91)">Ayuntamiento de Pravia</text>
+    <text x="-200" y="200" transform="rotate(-90,0,91)">Colegiata de Pravia</text>
+    <text x="-200" y="250" transform="rotate(-90,0,91)">La Azucarera de Pravia</text>
+    <text x="-200" y="300" transform="rotate(-90,0,91)">La Capilla de Nuestra Señora del Valle</text>
 </svg>

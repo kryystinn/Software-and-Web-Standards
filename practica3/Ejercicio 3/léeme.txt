@@ -1,7 +1,9 @@
-Lenguaje de programación: C#
+Lenguaje de programación: C# 
 Versión del compilador:  .NET Framework 4.6.1
+Versión de C#: 7.3
 
 En el directorio de Ejercicio 3 están la carpeta que incluye el código fuente y el ejecutable "Xml2json.exe", que al ejecutarlo pedirá un archivo xml de entrada que convertirá a JSON. Como output se creará un archivo de tipo JSON con el mismo nombre que tenía el archivo de entrada.
+Para la ejecución es necesario que el ejecutable esté en la misma carpeta que el DLL Newtonsoft.Json.dll.
 
 Archivos XML de prueba:
  - rutas.xml

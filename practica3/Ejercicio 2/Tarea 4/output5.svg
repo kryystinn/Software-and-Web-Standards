@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg height="500" width="800" xmlns="http://www.w3.org/2000/svg">
-    <text x="2" y="28" style="writing-mode:tb; glyph-orientation-vertical: 0;">Inicio</text>
-    <text x="50" y="113" style="writing-mode:tb; glyph-orientation-vertical: 0;">Playa de Toró</text>
-    <text x="100" y="114" style="writing-mode:tb; glyph-orientation-vertical: 0;">Playa de Poo</text>
-    <text x="150" y="112" style="writing-mode:tb; glyph-orientation-vertical: 0;">Playa de Gulpiyuri</text>
-    <polyline style="fill:none; stroke:red; stroke-width:3" points="2,13 50,98 100,99 150,97 "></polyline>
+<svg height="1000" width="800" 
+    xmlns="http://www.w3.org/2000/svg">
+    <polyline style="fill:none; stroke:red; stroke-width:3" points="2,87 50,98 100,99 150,97 "></polyline>
+    <text x="-100" y="210" transform="rotate(-90,0,200)">Inicio</text>
+    <text x="-200" y="150" transform="rotate(-90,0,102)">Playa de Toró</text>
+    <text x="-200" y="200" transform="rotate(-90,0,102)">Playa de Poo</text>
+    <text x="-200" y="250" transform="rotate(-90,0,102)">Playa de Gulpiyuri</text>
 </svg>
+

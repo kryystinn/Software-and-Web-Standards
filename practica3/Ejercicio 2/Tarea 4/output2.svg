@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg height="500" width="800" xmlns="http://www.w3.org/2000/svg">
-    <text x="2" y="97" style="writing-mode:tb; glyph-orientation-vertical: 0;">Inicio</text>
-    <text x="50" y="107" style="writing-mode:tb; glyph-orientation-vertical: 0;">Rinlo</text>
-    <text x="100" y="109" style="writing-mode:tb; glyph-orientation-vertical: 0;">Playa de Xuncos</text>
-    <text x="150" y="110" style="writing-mode:tb; glyph-orientation-vertical: 0;">Playa de Os Castros</text>
-    <text x="200" y="110" style="writing-mode:tb; glyph-orientation-vertical: 0;">Playa de As Illas</text>
-    <text x="250" y="111" style="writing-mode:tb; glyph-orientation-vertical: 0;">Playa de Esteiro</text>
-    <text x="300" y="110" style="writing-mode:tb; glyph-orientation-vertical: 0;">Playa de Las Catedrales</text>
+<svg height="1000" width="800" 
+    xmlns="http://www.w3.org/2000/svg">
     <polyline style="fill:none; stroke:red; stroke-width:3" points="2,82 50,92 100,94 150,95 200,95 250,96 300,95 "></polyline>
+    <text x="-100" y="210" transform="rotate(-90,0,200)">Inicio</text>
+    <text x="-200" y="150" transform="rotate(-90,0,97)">Rinlo</text>
+    <text x="-200" y="200" transform="rotate(-90,0,97)">Playa de Xuncos</text>
+    <text x="-200" y="250" transform="rotate(-90,0,97)">Playa de Os Castros</text>
+    <text x="-200" y="300" transform="rotate(-90,0,97)">Playa de As Illas</text>
+    <text x="-200" y="350" transform="rotate(-90,0,97)">Playa de Esteiro</text>
+    <text x="-200" y="400" transform="rotate(-90,0,97)">Playa de Las Catedrales</text>
 </svg>
+

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg height="500" width="800" xmlns="http://www.w3.org/2000/svg">
-    <text x="2" y="104" style="writing-mode:tb; glyph-orientation-vertical: 0;">Inicio</text>
-    <text x="50" y="107" style="writing-mode:tb; glyph-orientation-vertical: 0;">Restaurante O Barco</text>
-    <text x="100" y="106" style="writing-mode:tb; glyph-orientation-vertical: 0;">Restaurante Sabino</text>
-    <text x="150" y="92" style="writing-mode:tb; glyph-orientation-vertical: 0;">Gran Talaso Hotel Sanxenxo</text>
-<polyline style="fill:none; stroke:red; stroke-width:3" points="2,89 50,92 100,91 150,77 "></polyline>
+<svg height="1000" width="800" 
+    xmlns="http://www.w3.org/2000/svg">
+    <polyline style="fill:none; stroke:red; stroke-width:3" points="2,89 50,92 100,91 150,77 "></polyline>
+    <text x="-100" y="210" transform="rotate(-90,0,200)">Inicio</text>
+    <text x="-200" y="150" transform="rotate(-90,0,104)">Restaurante O Barco</text>
+    <text x="-200" y="200" transform="rotate(-90,0,104)">Restaurante Sabino</text>
+    <text x="-200" y="250" transform="rotate(-90,0,104)">Gran Talaso Hotel Sanxenxo</text>
 </svg>
