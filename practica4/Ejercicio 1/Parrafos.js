@@ -1,0 +1,9 @@
+document.write("<p>");
+document.write(informacion.curso);
+document.write("</p>");
+document.write("<p>");
+document.write(informacion.estudiante);
+document.write("</p>");
+document.write("<p>");
+document.write(informacion.email);
+document.write("</p>");
