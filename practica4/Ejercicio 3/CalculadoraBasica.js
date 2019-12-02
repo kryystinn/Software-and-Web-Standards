@@ -34,6 +34,9 @@ class CalculadoraBasica {
     }
 
     dec(){
+        if (this.input.value == ""){
+            this.input.value = "0";
+        }
         this.input.value += ".";
     }
 
