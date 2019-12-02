@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Cristina Ruiz de Bucesta Crespo" />
+    <meta name="description" content="Calculadora científica." />
+    <link rel="stylesheet" type="text/css" href="CalculadoraCientifica.css" />
+    <script src="CalculadoraCientifica.js"></script>
+    <title>
+        Calculadora Científica
+    </title>
+</head>
+
+<body>
+
+    <div class="calculadora"></div>
+
+        <input type="text" id="result" readonly></div>
+
+        <table class="teclas">
+            <tr>
+                <td><button onclick="cc.power()">x<sup>2</sup></button></td>
+                <td><button onclick="cc.powerValue()">x<sup>y</sup></button></td>
+                <td><button onclick="cc.sin()">sin</button></td>
+                <td><button onclick="cc.cos()">cos</button></td>
+                <td><button onclick="cc.tan()">tan</button></td>               
+            </tr>
+            <tr>
+                <td><button onclick="cc.root()"><span>&#8730</span></button></td>
+                <td><button onclick="cc.TenPowerValue()">10<sup>x</sup></button></td>
+                <td><button onclick="cc.log()">log</button></td>
+                <td><button onclick="cc.exp()">Exp</button></td>
+                <td><button onclick="cc.mod()">Mod</button></td>               
+            </tr>
+            <tr>
+                <td><button onclick="cc.clickMc()">MC</button></td>
+                <td><button onclick="cc.clickMrc()">MRC</button></td>
+                <td><button onclick="cc.clickMMinus()">M-</button></td>
+                <td><button onclick="cc.clickMPlus()">M+</button></td>
+                <td><button onclick="cc.div()">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="cc.dis('7')">7</button></td>
+                <td><button onclick="cc.dis('8')">8</button></td>
+                <td><button onclick="cc.dis('9')">9</button></td>
+                <td><button onclick="cc.mult()">*</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="cc.dis('4')">4</button></td>
+                <td><button onclick="cc.dis('5')">5</button></td>
+                <td><button onclick="cc.dis('6')">6</button></td>
+                <td><button onclick="cc.subs()">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="cc.dis('3')">3</button></td>
+                <td><button onclick="cc.dis('2')">2</button></td>
+                <td><button onclick="cc.dis('1')">1</button></td>
+                <td><button onclick="cc.sum()">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="cc.dis('0')">0</button></td>
+                <td><button onclick="cc.dec()">.</button></td>
+                <td><button onclick="cc.clear()">C</button></td>
+                <td><button onclick="cc.solve()">=</button></td>
+            </tr>
+        </table>
+
+    </div>
+
+    <footer>
+        <a href="https://validator.w3.org/check?uri=referer">
+            <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" alt="HTML5 Válido" />
+        </a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+        </a>
+    </footer>
+
+</body>
+
+</html>

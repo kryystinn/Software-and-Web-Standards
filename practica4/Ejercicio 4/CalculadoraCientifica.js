@@ -62,4 +62,15 @@ class CalculadoraBasica {
     }
 }
 
-var cb = new CalculadoraBasica();
+class CalculadoraCientifica extends CalculadoraBasica{
+
+    clickMc(){
+        this.setMemVal(0);
+    }
+
+    power(){
+        this.input.value = Math.pow(this.input.value, 2);
+    }
+}
+
+var cc = new CalculadoraCientifica();
