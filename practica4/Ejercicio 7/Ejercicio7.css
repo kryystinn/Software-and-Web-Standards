@@ -1,0 +1,85 @@
+body {
+    flex-flow: row wrap;
+    font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    line-height: 1.8;
+    color: #101816;
+    background: linear-gradient(90deg, rgba(94, 81, 212, 0.89),rgb(26, 7, 110)); 
+    background-color: inherit;
+    padding: 0% 2% 1% 2%; 
+}
+
+h1 {
+    color: #fff;
+    background-color: inherit;
+    font-family: Tahoma, sans-serif;
+    font-size: 34px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    padding: 100px 25px;
+    text-align: center;
+}
+
+h2 {
+    color: #e9fffd;
+    background-color: inherit;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 35px;
+}
+
+
+h3 {
+    color: #dfdfdf;
+    background-color: inherit;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 35px;
+}
+
+p {
+    color: #e9fffd;
+    background-color: inherit;
+    font-size: 14px;
+    text-align: left;
+}
+
+section {
+    padding: 20px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 60%;
+    min-width: 40%;
+    font-size: 16px;
+    border-collapse: collapse;
+    padding: 30px;
+}
+
+
+table tr{
+    background-color: #3b3c55;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #ffffff;
+}
+
+
+table tr th{
+    padding: 5px 0px;
+}
+
+
+table tr{
+    border-bottom: 1px solid #3b3c55;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Cristina Ruiz de Bucesta Crespo" />
+    <meta name="description" content="JavaScript con JQuery." />
+    <link rel="stylesheet" type="text/css" href="Ejercicio7.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Ejercicio7.js"></script>
+    <title>
+        Ejercicio 7
+    </title>
+</head>
+
+<body>
+
+    <h1>
+        Uso de JavaScript con JQuery
+    </h1>
+
+    <section>
+
+    <h2>
+        Ocultar y mostrar elementos
+    </h2>
+    <p>Este párrafo, junto al título de prueba, puede ser mostrado u ocultado haciendo click en el botón.</p>
+    <input type="button"  value="Ocultar elementos" onclick="e.ocultarElementos()" />
+    <input type="button"  value="Mostrar elementos" onclick="e.mostrarElementos()"/>
+
+    </section>
+
+    <section>
+
+    <h2 id = "titleChange">
+        Este título se puede modificar
+    </h2>
+    <p> Escribe a continuación el nuevo título:
+    <input type="text" id="newTitle" size="25">
+    <input type="button"  value="Modificar título" onclick="e.modificarTitulo()" />
+    </p>
+
+    </section>
+
+    <section>
+
+    <h2>
+        Añadir nuevos elementos
+    </h2>
+    <p id = "add"> Escribe a continuación un nuevo elemento a añadir a la página:
+    <input type="text" id="newCode" value="<p>Nuevo elemento</p>" size="25">
+    <input type="button"  value="Añadir elemento" onclick="e.addTexto()" />
+    </p>
+
+    </section>
+
+    <section>
+
+    <h2 class="delete"> Eliminar elementos</h2>
+    <p class="delete">Este elemento, así como el título, se pueden eliminar.</p>
+    <input type="button"  value="Eliminar elementos" onclick="e.delete()" />
+    
+    </section>
+
+    <section>
+
+    <h2>
+        Árbol DOM del HTML
+    </h2>
+    <p>
+        <input type="button"  value="Ver árbol DOM" onclick="e.arbolDom()" />
+    </p>
+            
+    </section>
+
+    <section>
+
+    <h2>
+        Sumar filas y columnas
+    </h2>
+    <h3>
+        Tabla de colores y sus respectivos códigos hexadecimales
+    </h3>
+
+    <table>
+        <tr>
+          <th>Nombre del color</th>
+          <th>Código hexadecimal</th>
+        </tr>
+        <tr>
+          <td>Verde</td>
+          <td>#008000</td>
+        </tr>
+        <tr>
+          <td>Azul</td>
+          <td>#0000FF</td>
+        </tr>
+        <tr>
+          <td>Rojo</td>
+          <td>#FF0000</td>
+        </tr>
+        <tr>
+          <td>Amarillo</td>
+          <td>#FFFF00</td>
+        </tr>
+        <tr>
+          <td>Negro</td>
+          <td>#000000</td>
+        </tr>
+        <tr>
+          <td>Blanco</td>
+          <td>#FFFFFF</td>
+        </tr>
+      </table>
+      <p>
+        <input type="Button" onclick="e.tabla()" value=" Ver número de filas y columnas de la tabla"/>
+        <input id="filascolumnas" type="text" size="40" readonly/>
+      </p>
+                  
+    </section>
+
+    <footer>
+        <a href="https://validator.w3.org/check?uri=referer">
+            <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" alt="HTML5 Válido" />
+        </a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+        </a>
+    </footer>
+
+</body>
+
+</html>
