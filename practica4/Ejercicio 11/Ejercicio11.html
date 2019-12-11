@@ -4,41 +4,30 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="author" content="Cristina Ruiz de Bucesta Crespo" />
-    <meta name="description" content="Aplicación JQuery que muestra el cambio de moneda entre el euro y otras cinco monedas." />
-    <link rel="stylesheet" type="text/css" href="Ejercicio10.css" />
+    <meta name="description" content="Aplicación que usa la API de Wikipedia para buscar artículos." />
+    <link rel="stylesheet" type="text/css" href="Ejercicio11.css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="Ejercicio10.js"></script>
+    <script src="Ejercicio11.js"></script>
     <title>
-        Ejercicio 10
+        Ejercicio 11
     </title>
 </head>
 
 <body>
 
     <h1>
-        Cambio de moneda
+        Buscador de artículos de Wikipedia
     </h1>
 
+    <section id="searchField">
+            <img id="logo" src="https://image.ibb.co/e6vOFQ/wikipedia.png" alt="Wikipedia Logo">
+            <input type="text" id="searchTerm">
+            <button id="search" onclick="e.buscarArticulo();">
+                <img src="https://image.ibb.co/cpG8zk/search.png" alt="search">
+            </button>
+    </section>
+    <div id="output"></div>
 
-    <h2>
-        Respecto a: 1€ (EUR)
-    </h2>
-    
-    <p id="gbp">
-        En Libra Esterlina (GBP): 
-    </p>
-    <p id="usd">
-        En Dólar Estadounidense (USD): 
-    </p>
-    <p id="btc">
-        En BitCoin (BTC): 
-    </p>
-    <p id="mxn">
-        En Pesos Mexicanos (MXN): 
-    </p>
-    <p id="jpy">
-        En Yens (JPY): 
-    </p>
 
     <footer>
         <a href="https://validator.w3.org/check?uri=referer">

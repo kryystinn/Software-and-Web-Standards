@@ -1,3 +1,4 @@
+"use strict"
 class Ejercicio8 {
     constructor(){
         this.apikey = "e73cf2821dc212bd56706297402178f9";
