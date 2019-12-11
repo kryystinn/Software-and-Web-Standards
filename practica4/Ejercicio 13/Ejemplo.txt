@@ -1,0 +1,8 @@
+La aleatoriedad se asocia a todo proceso cuyo resultado no es previsible más que en razón de la intervención del azar;
+un ejemplo muy sencillo de un evento aleatorio es el lanzamiento de dados. El resultado de todo suceso aleatorio no
+puede determinarse en ningún caso antes de que este se produzca. El estudio de los fenómenos aleatorios queda dentro del
+ámbito de la teoría de la probabilidad y, en un marco más amplio, en el de la estadística.
+
+La palabra aleatorio se usa para expresar una aparente carencia de propósito, causa, u orden. En cambio, el término
+aleatoriedad se usa a menudo como sinónimo con un número de propiedades estadísticas medibles, tales como la carencia de
+tendencias o correlación, es decir que no haya patrones que se puedan identificar.

@@ -1,0 +1,62 @@
+body {
+    flex-flow: row wrap;
+    font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    line-height: 1.8;
+    color: #101816;
+    background: linear-gradient(90deg, rgba(94, 81, 212, 0.89),rgb(26, 7, 110)); 
+    background-color: inherit;
+    padding: 0% 2% 1% 2%; 
+}
+
+h1 {
+    color: #fff;
+    background-color: inherit;
+    font-family: Tahoma, sans-serif;
+    font-size: 34px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    padding: 100px 25px;
+    text-align: center;
+}
+
+h2 {
+    color: #e9fffd;
+    background-color: inherit;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 35px;
+    padding-bottom: 60px;
+}
+
+input {
+    text-align: center;
+    color: #ccc;
+    background: inherit;
+    width: 250px;
+    height: 80px;
+    border: 1px solid #b9b9ff;
+    border-radius: 4px;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+input:hover {
+    background: #816fc9c7;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+p {
+    color: #e9fffd;
+    background-color: inherit;
+    font-size: 14px;
+    text-align: left;
+}
+
+
+
+footer {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}
