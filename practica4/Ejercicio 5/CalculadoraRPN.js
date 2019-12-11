@@ -2,11 +2,12 @@
 class CalculadoraRPN {
 
     constructor(){
-        this.memory = 0;
+        this.memory = 0.0;
+        this.pila = [];
     }
 
     get input(){
-        return document.getElementById("result1");
+        return document.getElementById("result");
     }
 
     setMemVal(val){
@@ -25,13 +26,13 @@ class CalculadoraRPN {
     }
 
     clickMMinus(){
-        this.setMemVal(Number(this.memory) - Number(this.input.value));
-        this.clear();
+        this.setMemVal(parseFloat(this.memory) - parseFloat(this.input.value));
+        this.input.value = "";
     }
 
     clickMPlus(){
-        this.setMemVal(Number(this.memory) + Number(this.input.value));
-        this.clear();
+        this.setMemVal(parseFloat(this.memory) + parseFloat(this.input.value));
+        this.input.value = "";
     }
 
     dec(){
@@ -42,70 +43,100 @@ class CalculadoraRPN {
     }
 
     sum(){
-        this.input.value += "+";
+        var number2 = parseFloat(this.pila.pop());
+        var number1 = parseFloat(this.pila.pop());
+        var result = number1 + number2;
+        this.input.value = result;
     }
 
     subs(){
-        this.input.value += "-";
+        var number2 = parseFloat(this.pila.pop());
+        var number1 = parseFloat(this.pila.pop());
+        var result = number1 - number2;
+        this.input.value = result;
     }
 
     mult(){
-        this.input.value += "*";
+        var number2 = parseFloat(this.pila.pop());
+        var number1 = parseFloat(this.pila.pop());
+        var result = number1 * number2;
+        this.input.value = result;
     }
 
     div(){
-        this.input.value += "/";
+        var number2 = parseFloat(this.pila.pop());
+        var number1 = parseFloat(this.pila.pop());
+        var result = number1 / number2;
+        this.input.value = result;
     }
 
     clear(){
         this.input.value = "";
+        this.pila = [];
     }
 
     enter(){
-        this.input.value = eval(this.input.value);
+        this.pila.push(this.input.value);
+        this.input.value = "";
     }
     clickMc(){
         this.setMemVal(0);
     }
 
     power(){
-        this.input.value = Math.pow(this.input.value, 2);
+        var number = parseFloat(this.pila.pop());
+        this.input.value = Math.pow(number, 2);
     }
 
     powerValue(){
-        this.input.value += "**";
+        var number2 = parseFloat(this.pila.pop());
+        var number1 = parseFloat(this.pila.pop());
+        var result = Math.pow(number1, number2);
+        this.input.value = result;
     }
 
     sin(){
-        this.input.value = Math.sin(this.input.value);
+        var number = parseFloat(this.pila.pop());
+        this.input.value = Math.sin(number);
     }
 
     cos(){
-        this.input.value = Math.cos(this.input.value);
+        var number = parseFloat(this.pila.pop());
+        this.input.value = Math.cos(number);
     }
 
     tan(){
-        this.input.value = Math.tan(this.input.value);
+        var number = parseFloat(this.pila.pop());
+        this.input.value = Math.tan(number);
     }
 
     root(){
-        this.input.value = Math.sqrt(this.input.value);
+        var number = parseFloat(this.pila.pop());
+        this.input.value = Math.sqrt(number);
     }
 
     tenPowerValue(){
-        this.input.value = Math.pow(10, this.input.value);
+        var number = parseFloat(this.pila.pop());
+        this.input.value = Math.pow(10, number);
     }
 
     log(){
-        this.input.value = Math.log(this.input.value);
+        var number = parseFloat(this.pila.pop());
+        this.input.value = Math.log(number);
     }
 
     exp(){
-        this.input.value += "e+";
+        var number2 = parseFloat(this.pila.pop());
+        var number1 = parseFloat(this.pila.pop());
+        var result = number1 * Math.pow(10, number2);
+        this.input.value = result;
     }
 
     mod(){
-        this.input.value += "%";
+        var number2 = parseFloat(this.pila.pop());
+        var number1 = parseFloat(this.pila.pop());
+        var result = number1 % number2
+        this.input.value = result;
     }
 
     pi(){
@@ -113,8 +144,9 @@ class CalculadoraRPN {
     }
 
     fact(){
-		var res = 1.0;
-		for (var i = this.input.value; i > 0; i--) { 
+        var res = 1.0;
+        var number = parseFloat(this.pila.pop());
+		for (var i = number; i > 0; i--) { 
 			res *= i;
 		}
 		this.input.value = res;

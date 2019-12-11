@@ -25,12 +25,12 @@ class CalculadoraBasica {
     }
 
     clickMMinus(){
-        this.setMemVal(Number(this.memory) - Number(this.input.value));
+        this.setMemVal(parseFloat(this.memory) - parseFloat(this.input.value));
         this.clear();
     }
 
     clickMPlus(){
-        this.setMemVal(Number(this.memory) + Number(this.input.value));
+        this.setMemVal(parseFloat(this.memory) + parseFloat(this.input.value));
         this.clear();
     }
 
