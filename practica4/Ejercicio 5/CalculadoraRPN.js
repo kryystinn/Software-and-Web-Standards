@@ -1,3 +1,4 @@
+"use strict"
 class CalculadoraRPN {
 
     constructor(){

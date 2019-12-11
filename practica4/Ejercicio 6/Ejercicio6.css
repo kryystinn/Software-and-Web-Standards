@@ -1,0 +1,128 @@
+body {
+    flex-flow: row wrap;
+    font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    line-height: 1.8;
+    color: #101816;
+    background: linear-gradient(90deg, rgba(94, 81, 212, 0.89),rgb(26, 7, 110)); 
+    background-color: inherit;
+    padding: 0% 2% 1% 2%; 
+}
+
+h1 {
+    color: #fff;
+    background-color: inherit;
+    font-family: Tahoma, sans-serif;
+    font-size: 34px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    padding: 100px 25px;
+    text-align: center;
+}
+
+h2 {
+    color: #e9fffd;
+    background-color: inherit;
+    font-size: 24px;
+    text-align: center;
+    padding-left: 35px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #dfdfdf;
+    background-color: inherit;
+    font-size: 18px;
+    text-align: center;
+}
+
+#newTitle {
+    border-radius: 4px;
+    height: 30px;
+    padding-left: 20px;
+    font: 12px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#newIdea {
+    border-radius: 4px;
+    height: 40px;
+    padding-left: 30px;
+    font: 11px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#changeTitle {
+    text-align: center;
+}
+
+#addIdeas {
+    padding-top: 50px;
+}
+
+
+.buttons {
+    text-align: center;
+    color: #dfdfdf;
+    background: #2b2250c7;
+    width: 180px;
+    height: 40px;
+    border: 1px solid #b9b9ff;
+    border-radius: 4px;
+    font-size: 18px;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-right: auto;
+}
+
+.buttons:hover {
+    background: #816fc9c7;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.buttons:focus {
+    color: #ffffff;
+    background: #5539c4c7;
+}
+
+p {
+    color: #e9fffd;
+    background-color: inherit;
+    font-size: 16px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul li {
+    color: #cbdfdd;
+    background: transparent;
+    font-size: 16px;
+    list-style: none;
+    border: 1px solid #f3f3f300;
+	border-radius: 5px;
+	margin-bottom: 20px;
+    position:relative;
+    font-weight: bold;
+}
+
+li button {
+    color: white;
+	background: none;
+    border: 2px solid #633c91;
+    padding: 10px;
+	float: right;
+	font-weight: 800;
+}
+
+li button:hover {
+    background: #63559bc7;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}

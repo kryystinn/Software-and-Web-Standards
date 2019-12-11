@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="author" content="Cristina Ruiz de Bucesta Crespo" />
-    <meta name="description" content="whatever." />
+    <meta name="description" content="Brainstorming webpage!" />
     <link rel="stylesheet" type="text/css" href="Ejercicio6.css" />
     <script src="Ejercicio6.js"></script>
     <title>
@@ -14,11 +14,33 @@
 
 <body>
 
-    <div class="calculadora"></div>
+    <h1>
+        Brainstorming webpage!
+    </h1>
 
-        <input type="text" id="result" readonly></div>
+    <h2 id="title">
+        Here goes the title of your main idea :)
+    </h2>
 
-    </div>
+    <section id="changeTitle">
+        <input id="newTitle" type="text" value="More inspiring title" size="45">
+        <input class="buttons" id="newbutton" type="button" value="Change title!" onclick="e.newProject()" />
+    </section>
+
+    <section id="addIdeas">
+        <input id="newIdea" type="text" value="..." size="150">
+        <input class="buttons" id="newbutton" type="button" value="Add an idea!" onclick="e.newIdea()" />
+    </section>
+
+    <section id="addIdeas">
+        <h3>
+            Your ideas!
+        </h3>
+        <p id="empty">It's empty yet... Start thinking!</p>
+        <ul id="ideas"></ul>
+
+    </section>
+
 
     <footer>
         <a href="https://validator.w3.org/check?uri=referer">
