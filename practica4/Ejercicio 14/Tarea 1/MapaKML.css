@@ -1,0 +1,54 @@
+body {
+    flex-flow: row wrap;
+    font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    line-height: 1.8;
+    color: #101816;
+    background: linear-gradient(90deg, rgba(94, 81, 212, 0.89),rgb(26, 7, 110)); 
+    background-color: inherit;
+    padding: 0% 2% 1% 2%; 
+}
+
+h1 {
+    color: #fff;
+    background-color: inherit;
+    font-family: Tahoma, sans-serif;
+    font-size: 34px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    padding: 100px 25px;
+    text-align: center;
+}
+
+
+input {
+    text-align: center;
+    color: rgb(209, 209, 209);
+    font-size: 14px;
+}
+
+p {
+    color: #e9fffd;
+    background-color: inherit;
+    font-size: 16px;
+    text-align: left;
+}
+
+#mapa {
+    height: 500px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aviso {
+    color: #990707;
+    background: transparent;
+}
+
+
+footer {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}

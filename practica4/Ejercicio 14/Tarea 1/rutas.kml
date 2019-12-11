@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <Folder>
+         <name>Ruta por Pravia</name>
+         <Placemark>
+            <name>Inicio</name>
+            <description>Ruta por el pueblo de Pravia para conocer los monumentos de la villa y alrededores.</description>
+            <Point>
+               <coordinates>
+            -6.109872,43.488691,24
+               </coordinates>
+            </Point>
+         </Placemark>
+         <Placemark>
+            <name>Ayuntamiento de Pravia</name>
+            <description>El primer hito se corresponde con la Plaza Marquesa de Casa Valdés, donde se encuentra el ayuntamiento local.</description>
+            <Point>
+               <coordinates>
+                    -6.111279,43.489360,39
+               </coordinates>
+            </Point>
+         </Placemark>
+         <Placemark>
+            <name>Colegiata de Pravia</name>
+            <description>El segundo hito se corresponde con la Colegiata Santa María la Mayor, situada en la plaza del Parque Sabino Moutas.</description>
+            <Point>
+               <coordinates>
+                    -6.113853,43.490087,38
+               </coordinates>
+            </Point>
+         </Placemark>
+         <Placemark>
+            <name>La Azucarera de Pravia</name>
+            <description>El tercer hito se corresponde con la antigua azucarera del pueblo.</description>
+            <Point>
+               <coordinates>
+                    -6.114315,43.491818,12
+               </coordinates>
+            </Point>
+         </Placemark>
+         <Placemark>
+            <name>La Capilla de Nuestra Señora del Valle</name>
+            <description>El cuarto y último hito se corresponde con la capilla de Nuestra señora del Valle.</description>
+            <Point>
+               <coordinates>
+                    -6.115535,43.48333,58
+               </coordinates>
+            </Point>
+         </Placemark>
+      </Folder>
+      <Folder>
+         <name>Ruta de las Playas en Ribadeo</name>
+         <Placemark>
+            <name>Inicio</name>
+            <description>Ruta por la línea del litoral ribadense que permite conocer sus playas y paisajes.</description>
+            <Point>
+               <coordinates>
+					-7.037886,43.541634,18
+               </coordinates>
+            </Point>
+         </Placemark>
+         <Placemark>
+            <name>Rinlo</name>
+            <description>En Rinlo, una pequeña villa cercana a Ribadeo, comienza oficialmente la "ruta das praias".</description>
+            <Point>
+               <coordinates>
+                    -7.104617,43.556900,8
+               </coordinates>
+            </Point>
+         </Placemark>
+         <Placemark>
+            <name>Playa de Xuncos</name>
+            <description>Primera playa de la ruta, de arena blanca, oleaje tranquilo y un entorno sin urbanizar.</description>
+            <Point>
+               <coordinates>
+                    -7.129773,43.555573,6
+               </coordinates>
+            </Point>
+         </Placemark>
+         <Placemark>
+            <name>Playa de Os Castros</name>
+            <description>Segunda playa de la ruta, Os Castros es una de las mejores playas para bañarse o pasar el día, 
+                            excepto en las horas próximas a la marea alta, ya que durante este periodo, la playa queda prácticamente
+                            cubierta por el mar.</description>
+            <Point>
+               <coordinates>
+                    -7.132854,43.555178,5
+               </coordinates>
+            </Point>
+         </Placemark>
+         <Placemark>
+            <name>Playa de As Illas</name>
+            <description>Terera playa de la ruta. Playa de arena blanca y fina que se extiende entre un conjunto de islotes y
+                            de costa y que conforma un paisaje litoral muy atractivo para el visitante.</description>
+            <Point>
+               <coordinates>
+                    -7.138307,43.555907,5
+               </coordinates>
+            </Point>
+         </Placemark>
+         <Placemark>
+            <name>Playa de Esteiro</name>
+            <description>Cuarta playa de la ruta, tiene una entrada muy pequeña, casi a nivel de la carretera,
+                            pero luego se abre en un amplio arenal. En marea alta desaparece casi totalmente.</description>
+            <Point>
+               <coordinates>
+                    -7.147399,43.554055,4
+               </coordinates>
+            </Point>
+         </Placemark>
+         <Placemark>
+            <name>Playa de Las Catedrales</name>
+            <description>Quinta y última playa de la ruta, sin duda un entorno maravilloso resultado de la confluencia de las rocas,
+                             la arena, el mar y el sol, con sus luces y sonidos. La playa más famosa de todas las que contiene la ruta.</description>
+            <Point>
+               <coordinates>
+                    -7.157124,43.554122,5
+               </coordinates>
+            </Point>
+         </Placemark>
+      </Folder>
+      <Folder>
+         <name>Ruta por Sanxenxo</name>
+         <Placemark>
+            <name>Inicio</name>
+            <description>Ruta por el pueblo de origen marinero de nombre Sanxenxo y alrededores para conocer los mejores sitios donde poder disfrutar                     de la gastronomía gallega.</description>
+            <Point>
+               <coordinates>
+            -8.814455,42.401823,11
+               </coordinates>
+            </Point>
+         </Placemark>
+         <Placemark>
+            <name>Restaurante O Barco</name>
+            <description>Cuidado comedor sin artificios con grandes ventanales mirando al mar que ofrece cocina gallega tradicional.</description>
+            <Point>
+               <coordinates>
+                    -8.815565,42.401313,8
+               </coordinates>
+            </Point>
+         </Placemark>
+         <Placemark>
+            <name>Restaurante Sabino</name>
+            <description>Platos gallegos con toques de modernidad en cuidado salón de aires actuales decorado con cuadros y bambú.</description>
+            <Point>
+               <coordinates>
+                    -8.810646,42.401606,9
+               </coordinates>
+            </Point>
+         </Placemark>
+         <Placemark>
+            <name>Gran Talaso Hotel Sanxenxo</name>
+            <description>Hotel de 4 estrellas situado en la línea de la costa con una terraza increíble donde poder tomar algo así como
+                            desayunar, comer o cenar. Además, el hotel consta de un spa.</description>
+            <Point>
+               <coordinates>
+                    -8.816680,42.399575,23
+               </coordinates>
+            </Point>
+         </Placemark>
+      </Folder>
+      <Folder>
+         <name>Ruta de Stoltzekleiven en Bergen, Noruega</name>
+         <Placemark>
+            <name>Inicio</name>
+            <description>Empinada ruta de senderismo pavimentada que además consta de                  908 escalones, con una elevación promedio del 36%.</description>
+            <Point>
+               <coordinates>
+            5.323439,60.397073,3
+               </coordinates>
+            </Point>
+         </Placemark>
+         <Placemark>
+            <name>Stoltzen Start</name>
+            <description>Inicio de la ruta.</description>
+            <Point>
+               <coordinates>
+                    5.327827,60.411946,81
+               </coordinates>
+            </Point>
+         </Placemark>
+         <Placemark>
+            <name>Sandvikspilen</name>
+            <description>El final de los 908 escalones.</description>
+            <Point>
+               <coordinates>
+                    5.333521,60.412536,352
+               </coordinates>
+            </Point>
+         </Placemark>
+         <Placemark>
+            <name>Panorama Floyfjellet</name>
+            <description>El final de la ruta, donde hay cafeterías y un restaurante, y un funicular para volver a la ciudad.</description>
+            <Point>
+               <coordinates>
+                    5.342864,60.394477,319
+               </coordinates>
+            </Point>
+         </Placemark>
+         <Placemark>
+            <name>Floyen, Vetrlidsallmenningen 23A</name>
+            <description>Vuelta a la ciudad caminando.</description>
+            <Point>
+               <coordinates>
+                    5.328470,60.396368,16
+               </coordinates>
+            </Point>
+         </Placemark>
+      </Folder>
+      <Folder>
+         <name>Ruta de playas por Llanes y alrededores</name>
+         <Placemark>
+            <name>Inicio</name>
+            <description>Ruta por algunas de las playas llaniscas más destacadas.</description>
+            <Point>
+               <coordinates>
+            -4.754525,43.422724,13
+               </coordinates>
+            </Point>
+         </Placemark>
+         <Placemark>
+            <name>Playa de Toró</name>
+            <description>Playa de gran belleza y espectacularidad cuenta con la certificación Q de calidad, 
+                            con forma de concha de unos 220 metros de longitud, caracterizada por una serie de 
+                            pináculos rocosos que salpican parte de la arena en interior de la concha y que son 
+                            los restos de formaciones kársticas.</description>
+            <Point>
+               <coordinates>
+                    -4.743479,43.416628,2
+               </coordinates>
+            </Point>
+         </Placemark>
+         <Placemark>
+            <name>Playa de Poo</name>
+            <description>La playa de Poo, calificada como semi-natural, se encuentra en el interior de la 
+                            margen derecha de la ensenada que forma el arroyo Vallina, separada del mar abierto 
+                            por un estrecho paso entre las rocas. Por tanto, está muy protegida del oleaje.</description>
+            <Point>
+               <coordinates>
+                    -4.784197,43.429033,1
+               </coordinates>
+            </Point>
+         </Placemark>
+         <Placemark>
+            <name>Playa de Gulpiyuri</name>
+            <description>Declarada Monumento Natural por el Principado de Asturias, constituye una de las singularidades geológicas más llamativas de esta zona.</description>
+            <Point>
+               <coordinates>
+                    -4.885899,43.447534,3
+               </coordinates>
+            </Point>
+         </Placemark>
+      </Folder>
+   </Document>
+</kml>|

@@ -1,0 +1,342 @@
+{  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotel los 14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.109872,
+          43.488691
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Ayuntamiento de Pravia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.111279,
+          43.489360
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Colegiata de Pravia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.113853,
+          43.490087
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "La Azucarera de Pravia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.114315,
+          43.491818
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "La Capilla de Nuestra Señora del Valle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.115535,
+          43.48333
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "La Capilla de Nuestra Señora del Valle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.115535,
+          43.48333
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Ermita-Capela de San Miguel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -7.037886,
+          43.541634
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Rinlo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -7.104617,
+          43.556900
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Playa de Xuncos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -7.129773,
+          43.555573
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Playa de Os Castros"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -7.132854,
+          43.555178
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Playa de As Illas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -7.138307,
+          43.555907
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Playa de Esteiro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -7.147399,
+          43.554055
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Playa de Las Catedrales"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -7.157124,
+          43.554122
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Tapería Bar ATÍPIKO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -8.814455,
+          42.401823
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Restaurante O Barco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -8.815565,
+          42.401313
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Restaurante Sabino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -8.810646,
+          42.401606
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Gran Talaso Hotel Sanxenxo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -8.816680,
+          42.399575
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Hanseviertel Bryggen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         5.323439,
+          60.397073
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Stoltzen Start"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         5.327827,
+          60.411946
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Sandvikspilen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         5.333521,
+          60.412536
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Panorama Floyfjellet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         5.342864,
+          60.394477
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Floyen, Vetrlidsallmenningen 23A"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         5.328470,
+          60.396368
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Llanes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -4.754525,
+          43.422724
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Playa de Toró"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -4.743479,
+          43.416628
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Playa de Poo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -4.784197,
+          43.429033
+        ]
+      }
+     },
+	{
+      "type": "Feature",
+      "properties": {
+        "name": "Playa de Gulpiyuri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -4.88589,
+          43.447534
+       ]
+      }
+    }
+  ]
+}

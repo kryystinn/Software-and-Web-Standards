@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Cristina Ruiz de Bucesta Crespo" />
+    <meta name="description" content="Mapa KML." />
+    <link rel="stylesheet" type="text/css" href="MapaKML.css" />
+    <script src="MapaKML.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/geocodezip/geoxml3/master/polys/geoxml3.js"></script>
+    <title>
+        Ejercicio 14
+    </title>
+</head>
+
+<body>
+
+    <h1>
+        Mapa de rutas KML
+    </h1>
+
+    <p class="aviso"> El archivo a seleccionar debe ser un KML.</p>
+    <p>Seleccione el archivo: </p>
+    <input id="subirArchivos" type="file" name="Archivos" onchange="m.loadKML(this.files)"/>
+
+    <div id="mapa"></div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLohIiuvHq8RjPV4tvU-HCRabhF3BLHtQ&callback=m.initMap"></script>
+
+    <footer>
+        <a href="https://validator.w3.org/check?uri=referer">
+            <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" alt="HTML5 Válido" />
+        </a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+        </a>
+    </footer>
+
+</body>
+
+</html>
