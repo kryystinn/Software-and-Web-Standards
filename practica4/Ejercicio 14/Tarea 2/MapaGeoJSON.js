@@ -12,9 +12,6 @@ class Mapa {
     }
      loadGeoJSON(files) {
         var file = files[0];
-
-        var importGeoJSONMethod = this.importGeoJSON;
-
         var map = this.map;
             var reader = new FileReader();
             reader.onload = function (e) {
@@ -26,4 +23,3 @@ class Mapa {
 }
 
 var m = new Mapa();
-m.initMap = m.initMap();

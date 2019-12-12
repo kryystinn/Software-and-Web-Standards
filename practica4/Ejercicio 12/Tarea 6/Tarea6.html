@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Cristina Ruiz de Bucesta Crespo" />
+    <meta name="description" content="Búsqueda de coordenadas haciendo uso de la API de Google." />
+    <link rel="stylesheet" type="text/css" href="Tarea6.css" />
+    <script src="Tarea6.js"></script>
+    <title>
+        Tarea 6
+    </title>
+</head>
+
+<body>
+
+    <h1>
+        Búsqueda de coordenadas en un mapa
+    </h1>
+
+    <section id="search">
+        <h2>
+            Busca según latitud y longitud
+        </h2>
+        <label for="lat">
+            Latitud:
+            <input id="lat" type="text" placeholder="39.032942" size="25">
+        </label>
+
+        <label for="lng">
+            Longitud:
+            <input id="lng" type="text" placeholder="125.741948" size="25">
+        </label>
+        <input class="buttons" id="newbutton" type="button" value="Search!" onclick="miMapa.searchCoordinates()" />
+    </section>
+
+    <div id="mapa"></div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLohIiuvHq8RjPV4tvU-HCRabhF3BLHtQ&callback=miMapa.initMap"></script>
+
+    <footer>
+        <a href="https://validator.w3.org/check?uri=referer">
+            <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" alt="HTML5 Válido" />
+        </a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+        </a>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Cristina Ruiz de Bucesta Crespo" />
+    <meta name="description" content="Mapa KML." />
+    <link rel="stylesheet" type="text/css" href="Ejercicio15.css" />
+    <script src="Ejercicio15.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>
+        Ejercicio 15
+    </title>
+</head>
+
+<body onload="m.init()">
+
+    <h1>
+        Invierte tu imagen
+    </h1>
+
+    <p id="aviso" class="aviso"> El archivo a seleccionar debe ser una imagen de tipo jpg o png.</p>
+    <p>Seleccione el archivo: </p>
+
+    <div id="cargar"> 
+        <input id="subirArchivos" type="file" name="Archivos" onchange="m.loadImage(this.files)"/>
+        <div id="filedrag">
+            o arrastre el archivo
+        </div>
+    </div>
+
+    <input id="descargar" type="button" onclick="m.download()" value="Descargar" disabled="true"/>
+
+    <div class="canvas__container">
+        <canvas id="cnvs" class="canvas__canvas"></canvas>
+    </div>
+
+    <footer>
+        <a href="https://validator.w3.org/check?uri=referer">
+            <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" alt="HTML5 Válido" />
+        </a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+        </a>
+    </footer>
+
+</body>
+
+</html>
