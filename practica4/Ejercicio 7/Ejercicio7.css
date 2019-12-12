@@ -68,15 +68,14 @@ table tr{
     border-bottom: 1px solid #ffffff;
 }
 
+table tr:last-child{
+    border-bottom: none;
+}
 
 table tr th{
     padding: 5px 0px;
 }
 
-
-table tr{
-    border-bottom: 1px solid #3b3c55;
-}
 
 footer {
     display: block;

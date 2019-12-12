@@ -20,16 +20,17 @@
     </h1>
 
     <p id="aviso" class="aviso"> El archivo a seleccionar debe ser una imagen de tipo jpg o png.</p>
-    <p>Seleccione el archivo: </p>
 
-    <div id="cargar"> 
+    <div id="cargar">
+        <p>Seleccione el archivo: </p>
         <input id="subirArchivos" type="file" name="Archivos" onchange="m.loadImage(this.files)"/>
+
         <div id="filedrag">
             o arrastre el archivo
         </div>
     </div>
 
-    <input id="descargar" type="button" onclick="m.download()" value="Descargar" disabled="true"/>
+    <input id="descargar" type="button" onclick="m.download()" value="Descargar" disabled/>
 
     <div class="canvas__container">
         <canvas id="cnvs" class="canvas__canvas"></canvas>

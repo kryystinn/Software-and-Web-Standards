@@ -14,9 +14,9 @@
 
 <body>
 
-    <div class="calculadora"></div>
+    <div class="calculadora">
 
-        <input type="text" id="result" readonly></div>
+        <input type="text" id="result" readonly/>
 
         <table class="teclas">
             <tr>
@@ -27,45 +27,46 @@
                 <td><button onclick="cc.tan()">tan</button></td>               
             </tr>
             <tr>
-                <td><button onclick="cc.root()"><span>&#8730</span></button></td>
+                <td><button onclick="cc.root()"><span>&#8730;</span></button></td>
                 <td><button onclick="cc.tenPowerValue()">10<sup>x</sup></button></td>
                 <td><button onclick="cc.log()">log</button></td>
                 <td><button onclick="cc.exp()">Exp</button></td>
                 <td><button onclick="cc.mod()">Mod</button></td>               
             </tr>
             <tr>
-                <td><button onclick="cc.clickMc()">MC</button></td>
-                <td><button onclick="cc.clickMrc()">MRC</button></td>
-                <td><button onclick="cc.clickMMinus()">M-</button></td>
-                <td><button onclick="cc.clickMPlus()">M+</button></td>
+                <td><button class="sp" onclick="cc.clickMc()">MC</button></td>
+                <td><button class="sp" onclick="cc.clickMrc()">MRC</button></td>
+                <td><button class="sp" onclick="cc.clickMMinus()">M-</button></td>
+                <td><button class="sp" onclick="cc.clickMPlus()">M+</button></td>
                 <td><button onclick="cc.div()">/</button></td>
             </tr>
             <tr>
                 <td><button onclick="cc.pi()">&#928;</button></td>
-                <td><button onclick="cc.dis('7')">7</button></td>
-                <td><button onclick="cc.dis('8')">8</button></td>
-                <td><button onclick="cc.dis('9')">9</button></td>
+                <td><button class="num" onclick="cc.dis('7')">7</button></td>
+                <td><button class="num" onclick="cc.dis('8')">8</button></td>
+                <td><button class="num" onclick="cc.dis('9')">9</button></td>
                 <td><button onclick="cc.mult()">*</button></td>
             </tr>
             <tr>
                 <td><button onclick="cc.fact()">n!</button></td>
-                <td><button onclick="cc.dis('4')">4</button></td>
-                <td><button onclick="cc.dis('5')">5</button></td>
-                <td><button onclick="cc.dis('6')">6</button></td>
+                <td><button class="num" onclick="cc.dis('4')">4</button></td>
+                <td><button class="num" onclick="cc.dis('5')">5</button></td>
+                <td><button class="num" onclick="cc.dis('6')">6</button></td>
                 <td><button onclick="cc.subs()">-</button></td>
             </tr>
             <tr>
                 <td><button onclick="cc.changeSign()">&plusmn;</button></td>
-                <td><button onclick="cc.dis('3')">3</button></td>
-                <td><button onclick="cc.dis('2')">2</button></td>
-                <td><button onclick="cc.dis('1')">1</button></td>
+                <td><button class="num" onclick="cc.dis('3')">3</button></td>
+                <td><button class="num" onclick="cc.dis('2')">2</button></td>
+                <td><button class="num" onclick="cc.dis('1')">1</button></td>
                 <td><button onclick="cc.sum()">+</button></td>
             </tr>
             <tr>
                 <td><button onclick="cc.dis('0')">0</button></td>
                 <td><button onclick="cc.dec()">.</button></td>
-                <td><button onclick="cc.clear()">C</button></td>
-                <td><button onclick="cc.solve()">=</button></td>
+                <td><button class="sp" onclick="cc.clear()">C</button></td>
+                <td><button class="enter" onclick="cc.solve()">=</button></td>
+                <td></td>
             </tr>
         </table>
 

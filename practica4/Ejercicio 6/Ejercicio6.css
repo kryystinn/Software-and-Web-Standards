@@ -53,8 +53,8 @@ h3 {
     text-align: center;
 }
 
-#addIdeas {
-    padding-top: 50px;
+#addIdeas, #ideaList {
+    padding-top: 60px;
 }
 
 
@@ -90,25 +90,22 @@ p {
     text-align: center;
 }
 
-ul {
-    list-style-type: square;
-}
 
 ul li {
-    color: #cbdfdd;
+    color: #effffe;
     background: transparent;
     font-size: 16px;
-    list-style: none;
     border: 1px solid #f3f3f300;
 	border-radius: 5px;
 	margin-bottom: 20px;
     position:relative;
     font-weight: bold;
+    list-style-type: square;
 }
 
 li button {
     color: white;
-	background: none;
+    background: transparent;
     border: 2px solid #633c91;
     padding: 10px;
 	float: right;

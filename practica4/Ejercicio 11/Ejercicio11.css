@@ -42,6 +42,7 @@ h2 {
 
 #search {
     background: transparent;
+    color: inherit;
     border: 1px solid white;
     padding: 10px 15px;
     

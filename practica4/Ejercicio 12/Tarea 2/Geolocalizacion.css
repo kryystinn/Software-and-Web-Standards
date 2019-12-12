@@ -22,7 +22,7 @@ h1 {
 input {
     text-align: center;
     color: #ccc;
-    background: inherit;
+    background: transparent;
     width: 250px;
     height: 80px;
     border: 1px solid #b9b9ff;

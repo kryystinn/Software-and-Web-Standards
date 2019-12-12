@@ -45,7 +45,7 @@ h3 {
 input {
     text-align: center;
     color: #ccc;
-    background: inherit;
+    background: transparent;
     width: 200px;
     height: 80px;
     border: 1px solid #b9b9ff;

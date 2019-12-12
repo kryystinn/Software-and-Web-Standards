@@ -22,16 +22,18 @@
         <h2>
             Busca según latitud y longitud
         </h2>
-        <label for="lat">
+        <label for="lat" id="lblat">
             Latitud:
             <input id="lat" type="text" placeholder="39.032942" size="25">
         </label>
 
-        <label for="lng">
+        <label for="lng" id="lblng">
             Longitud:
             <input id="lng" type="text" placeholder="125.741948" size="25">
         </label>
-        <input class="buttons" id="newbutton" type="button" value="Search!" onclick="miMapa.searchCoordinates()" />
+
+        <input class="btn" type="button" value="Search!" onclick="miMapa.searchCoordinates()" />
+    
     </section>
 
     <div id="mapa"></div>

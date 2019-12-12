@@ -1,18 +1,37 @@
 body {
     font-size: 26px;
-    background-color: #fff;
     color: black;
     text-align: center;
-  }
+    background: linear-gradient(90deg, rgba(94, 81, 212, 0.89),rgb(26, 7, 110)); 
+    background-color: inherit;
+    padding: 0% 2% 1% 2%; 
+}
 
 .calculadora{
-    padding-top: 20px;
     text-align: center;
+    display: block;
+    padding: 50px;
 }
 
 .teclas {
     margin-left: auto;
     margin-right: auto;
+    padding-top: 30px;
+}
+
+.sp {
+    background: #892effe7;
+    color: inherit;
+}
+
+.num {
+    background: #b33760b6;
+    color: inherit;
+}
+
+.enter {
+    background: #b33760b6;
+    color: inherit;
 }
 
 button {
@@ -20,8 +39,17 @@ button {
     width: 50px;
     height: 50px;
     font-size: 16px;
-    text-align: center;
     margin: 2px;
+    background: #d3b1ffd3;
+    color: inherit;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    outline: none;
 }
 
 #result {
@@ -29,7 +57,7 @@ button {
     font-size: 2em;
     text-align: right;
     color:black;
-    width: 250px;
+    width: 280px;
     border: 1px solid black;
     padding-bottom: 10px;
 }

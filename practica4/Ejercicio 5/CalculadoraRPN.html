@@ -14,9 +14,9 @@
 
 <body>
 
-    <div class="calculadora"></div>
+    <div class="calculadora">
 
-        <input class="input" type="text" id="result" readonly>
+        <input class="input" type="text" id="result" readonly/>
 
         <table class="teclas">
             <tr>
@@ -27,45 +27,46 @@
                 <td><button onclick="crpn.tan()">tan</button></td>               
             </tr>
             <tr>
-                <td><button onclick="crpn.root()"><span>&#8730</span></button></td>
+                <td><button onclick="crpn.root()"><span>&#8730;</span></button></td>
                 <td><button onclick="crpn.tenPowerValue()">10<sup>x</sup></button></td>
                 <td><button onclick="crpn.log()">log</button></td>
                 <td><button onclick="crpn.exp()">Exp</button></td>
                 <td><button onclick="crpn.mod()">Mod</button></td>               
             </tr>
             <tr>
-                <td><button onclick="crpn.clickMc()">MC</button></td>
-                <td><button onclick="crpn.clickMrc()">MRC</button></td>
-                <td><button onclick="crpn.clickMMinus()">M-</button></td>
-                <td><button onclick="crpn.clickMPlus()">M+</button></td>
+                <td><button class="sp" onclick="crpn.clickMc()">MC</button></td>
+                <td><button class="sp" onclick="crpn.clickMrc()">MRC</button></td>
+                <td><button class="sp" onclick="crpn.clickMMinus()">M-</button></td>
+                <td><button class="sp" onclick="crpn.clickMPlus()">M+</button></td>
                 <td><button onclick="crpn.div()">/</button></td>
             </tr>
             <tr>
                 <td><button onclick="crpn.pi()">&#928;</button></td>
-                <td><button onclick="crpn.dis('7')">7</button></td>
-                <td><button onclick="crpn.dis('8')">8</button></td>
-                <td><button onclick="crpn.dis('9')">9</button></td>
+                <td><button class="num" onclick="crpn.dis('7')">7</button></td>
+                <td><button class="num" onclick="crpn.dis('8')">8</button></td>
+                <td><button class="num" onclick="crpn.dis('9')">9</button></td>
                 <td><button onclick="crpn.mult()">*</button></td>
             </tr>
             <tr>
                 <td><button onclick="crpn.fact()">n!</button></td>
-                <td><button onclick="crpn.dis('4')">4</button></td>
-                <td><button onclick="crpn.dis('5')">5</button></td>
-                <td><button onclick="crpn.dis('6')">6</button></td>
+                <td><button class="num" onclick="crpn.dis('4')">4</button></td>
+                <td><button class="num" onclick="crpn.dis('5')">5</button></td>
+                <td><button class="num" onclick="crpn.dis('6')">6</button></td>
                 <td><button onclick="crpn.subs()">-</button></td>
             </tr>
             <tr>
                 <td><button onclick="crpn.changeSign()">&plusmn;</button></td>
-                <td><button onclick="crpn.dis('3')">3</button></td>
-                <td><button onclick="crpn.dis('2')">2</button></td>
-                <td><button onclick="crpn.dis('1')">1</button></td>
+                <td><button class="num" onclick="crpn.dis('3')">3</button></td>
+                <td><button class="num" onclick="crpn.dis('2')">2</button></td>
+                <td><button class="num" onclick="crpn.dis('1')">1</button></td>
                 <td><button onclick="crpn.sum()">+</button></td>
             </tr>
             <tr>
                 <td><button onclick="crpn.dis('0')">0</button></td>
                 <td><button onclick="crpn.dec()">.</button></td>
-                <td><button onclick="crpn.clear()">C</button></td>
-                <td><button onclick="crpn.enter()">Ent</button></td>
+                <td><button class="sp" onclick="crpn.clear()">C</button></td>
+                <td><button class="enter" onclick="crpn.enter()">Ent</button></td>
+                <td></td>
             </tr>
         </table>
 

@@ -23,6 +23,7 @@ h1 {
 input {
     text-align: center;
     color: rgb(209, 209, 209);
+    background: transparent;
     font-size: 14px;
 }
 

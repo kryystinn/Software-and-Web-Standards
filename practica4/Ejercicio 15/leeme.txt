@@ -1,0 +1,11 @@
+El ejercicio es bastante sencillo, se trata de subir una foto y el programa te la invierte, haciendo posible la descarga de esta foto invertida.
+
+El problema es que la descarga de la foto, por lo que he comprobado, funciona en algunos navegadores a veces, mientras que en Mozilla siempre. 
+
+Me da una advertencia de "violación" tal que:
+		[Violation] 'click' handler took 345ms
+
+
+He intentado buscar en Internet pero no he encontrado nada para mi caso en concreto. 
+
+Siento mucho las molestias.

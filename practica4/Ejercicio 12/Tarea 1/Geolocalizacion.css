@@ -19,10 +19,17 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    color: #e9fffd;
+    background-color: inherit;
+    font-size: 20px;
+    text-align: left;
+}
+
 input {
     text-align: center;
     color: #ccc;
-    background: inherit;
+    background: transparent;
     width: 250px;
     height: 80px;
     border: 1px solid #b9b9ff;
